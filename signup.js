@@ -1,0 +1,167 @@
+function RegisterNow(e){
+
+    if(e.isTrusted=true){
+
+        document.querySelector("#first_name").innerHTML=null;
+
+        document.querySelector("#last_name").innerHTML=null;
+
+        document.querySelector("#Pass_description").innerText=null;
+
+        document.querySelector("#Subscription").innerHTML=null;
+
+        document.querySelector("#Pass>p").innerText="Create New Password";
+
+        let p=document.createElement("p");
+        p.innerText="First Name";
+
+        let input=document.createElement("input");
+
+        document.querySelector("#first_name").append(p,input);
+
+        // p.innerText="Last Name";
+        p1=document.createElement("p")
+        p1.innerText="Last Name"
+
+        let input1=document.createElement("input");
+
+        document.querySelector("#last_name").append(p1,input1);
+
+        document.querySelector("#Pass_description").innerText="Your password must be eight characters or more and contain an uppercase letter and number";
+
+        let p2=document.createElement("p");
+        p2.innerText="Want to remain stylishly in the know? Please tick here to receive THE OUTNET's promotional emails.";
+        p2.style.opacity="0.8"
+
+        let div=document.createElement("div");
+        div.innerHTML=`<label class="Confirmation">Yes please!
+            <input type="radio" name="radio">
+            <span class="Check"></span>
+        </label>
+      
+        <label class="Confirmation">No thanks
+            <input type="radio" name="radio">
+            <span class="Check"></span>
+        </label>`;
+
+        let p3=document.createElement("p");
+        p3.innerText="Find out more about our Privacy Policy"
+        p3.style.opacity="0.8";
+
+
+        document.querySelector("#Subscription").append(p2,div,p3);
+
+        document.querySelector("#Sign_in_button>p").innerText="Register";
+
+        // document.querySelector("#last_name").append(p,input);
+
+    }
+    
+}
+
+
+function format(e){
+
+    if(e.isTrusted=true){
+
+        document.querySelector("#Pass>p").innerText="Password";
+
+        document.querySelector("#first_name").innerHTML=null;
+
+        document.querySelector("#last_name").innerHTML=null;
+
+        document.querySelector("#Pass_description").innerText=null;
+
+        document.querySelector("#Subscription").innerHTML=null;
+
+        document.querySelector("#Sign_in_button>p").innerText="Sign In"
+
+    }
+
+}
+
+
+let SignUP = async ()=>{
+    let name = document.querySelector("#first_name>input").value +" "+ document.querySelector("#last_name>input").value;
+    let email =document.querySelector("#Email").value;
+    let password =document.querySelector("#Password").value;
+    let username = document.querySelector("#Email").value;
+
+    let form_data ={
+        "name":name,
+        "email":email,
+        "password":password,
+        "username":username,
+        "mobile":1234567890,
+        "description":"register",
+    }
+
+    console.log(form_data)
+
+    form_data=JSON.stringify(form_data);
+
+    let res = await fetch("https://masai-api-mocker.herokuapp.com/auth/register",{
+
+    method:"POST",
+    body:form_data,
+    headers:{
+        "Content-Type":"application/json"
+    },
+    });
+
+    let data= await res.json();
+
+    console.log(data);
+
+};
+
+
+
+let login = async () => {
+
+    let user_data={
+        username: document.querySelector("#Email").value,
+        password: document.querySelector("#Password").value
+    };
+
+    user_data=JSON.stringify(user_data);
+
+    let res=await fetch("https://masai-api-mocker.herokuapp.com/auth/login",{
+        method:"POST",
+        body:user_data,
+        headers:{
+            "Content-Type":"application/json"
+        }
+    });
+
+    let data=await res.json();
+
+    let username= document.querySelector("#Email").value;
+    
+    getUserdetails(username,data.token);
+
+};
+
+
+
+let getUserdetails = async (username,token) => {
+
+    let res=await fetch(`https://masai-api-mocker.herokuapp.com/user/${username}`,{
+        headers:{Authorization:`Bearer ${token}`}
+    });
+
+    let data= await res.json();
+
+    console.log("userdata :",data)
+
+}
+
+
+
+function SignUp_Register(obj){
+    if(obj.innerText=="Register"){
+        SignUP();
+    }
+}
+
+

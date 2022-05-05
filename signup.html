@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css">
+
+</head>
+<body>
+    <div id="SignUp">
+        <div id="SignUP_Form">
+            <div><p>Welcome</p></div>
+            <div>
+                <p>Email Address</p>
+                <input type="email" id="Email" required>
+            </div>
+
+            <div id="Confirm">
+
+                <label class="Confirmation">I'm already registered
+                    <input type="radio" name="radio" checked="checked" onclick="format(event)">
+                    <span class="Check"></span>
+                </label>
+                  
+                <label class="Confirmation">I'm new to THE OUTNET
+                    <input type="radio" name="radio" onclick="RegisterNow(event)">
+                    <span class="Check"></span>
+                </label>
+
+
+            </div>
+
+            <div id="Pass">
+                <p>Password</p>
+                <input type="password" id="Password" required>
+            </div>
+            <p id="Pass_description"></p>
+
+
+            <div id="first_name"></div>
+
+
+            <div id="last_name"></div>
+
+
+            <div id="Subscription"></div>
+
+
+
+            <div id="Sign_in_button" onclick="SignUp_Register(this)">
+                <p>Sign In</p>
+            </div>
+
+            <p>Fogot your password?</p>
+
+        </div>
+        
+    </div>
+</body>
+</html>
+
+
+<script src="./signup.js"></script>
