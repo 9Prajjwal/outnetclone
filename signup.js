@@ -82,18 +82,20 @@ function format(e){
 
 
 let SignUP = async ()=>{
-    let name = document.querySelector("#first_name>input").value +" "+ document.querySelector("#last_name>input").value;
-    let email =document.querySelector("#Email").value;
-    let password =document.querySelector("#Password").value;
-    let username = document.querySelector("#Email").value;
+    let Name = document.querySelector("#first_name>input").value +" "+ document.querySelector("#last_name>input").value;
+    let Email =document.querySelector("#Email").value;
+    let Password =document.querySelector("#Password").value;
+    let Username = document.querySelector("#Email").value;
+    document.querySelector("#mobile").value=Math.random()*10000000000;
+    document.querySelector("#description").value="hello world"
 
     let form_data ={
-        "name":name,
-        "email":email,
-        "password":password,
-        "username":username,
-        "mobile":1234567890,
-        "description":"register",
+        name:Name,
+        email:Email,
+        password:Password,
+        username:Username,
+        mobile: document.querySelector("#mobile").value,
+        description:document.querySelector("#description").value,
     }
 
     console.log(form_data)
@@ -111,13 +113,37 @@ let SignUP = async ()=>{
 
     let data= await res.json();
 
-    console.log(data);
+    if(data.error==true){
+        alert(`${data.message}`);
+        return;
+    }
+
+    if(data.error==false){
+        alert("Registration successful");
+        window.location.reload();
+    }
 
 };
 
 
 
 let login = async () => {
+
+    if(document.querySelector("#Email").value=="" && document.querySelector("#Password").value==""){
+        alert("Email and password fields can not be empty");
+        return;
+    }
+
+    if(document.querySelector("#Email").value==""){
+        alert("Enter Your Email");
+        return;
+    }
+
+    if(document.querySelector("#Password").value==""){
+        alert("Enter Your password");
+        return;
+    }
+
 
     let user_data={
         username: document.querySelector("#Email").value,
@@ -135,6 +161,14 @@ let login = async () => {
     });
 
     let data=await res.json();
+    console.log("hello",data)
+
+    if(data.error==true){
+        alert(`${data.message}`);
+        return;
+    }
+
+    
 
     let username= document.querySelector("#Email").value;
     
@@ -152,15 +186,22 @@ let getUserdetails = async (username,token) => {
 
     let data= await res.json();
 
-    console.log("userdata :",data)
+    if(data.username==document.querySelector("#Email").value){
+        alert("Login successful");
+    }
 
 }
 
 
 
 function SignUp_Register(obj){
+    
     if(obj.innerText=="Register"){
         SignUP();
+    }
+
+    if(obj.innerText=="Sign In"){
+        login();
     }
 }
 
