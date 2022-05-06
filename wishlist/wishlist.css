@@ -1,0 +1,85 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#wishlist{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
+    margin: auto;
+    gap:10%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+}
+#heading{
+    margin: auto;
+    padding: 0.5% 2% 0.5% 3%;
+    font-size: 12px;
+    margin-top: 2%;
+    width: 95%;
+    color: rgb(81, 81, 81);
+}
+/* #box{
+    ma
+} */
+#image_wish{
+    width:80%;
+    margin: auto;
+    height: auto;   
+}
+#box_top{
+    display: flex;
+    justify-content: end;
+}
+#box_top > button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+#box_dis{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -6%;
+}
+#stkprice{
+    text-decoration-line:line-through;
+}
+#box_down > h3, #heading> h2{
+    letter-spacing: 1px;
+}
+#addtoBag{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+}
+#price{
+    color: rgb(198, 20, 20);
+    font-weight: 550;
+}
+#imageDIv{
+    background-color: rgb(242, 242, 242);
+    padding: 8%;
+    width: 77%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (min-width:401px) and (max-width:720px){
+    #wishlist{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media all and (min-width:80px) and (max-width:400px){
+    #wishlist{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
