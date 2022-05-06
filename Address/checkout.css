@@ -1,0 +1,490 @@
+body{
+    background-color: whitesmoke;
+}
+
+#h-tag{
+    padding-top: 10px;
+}
+
+#a-header{
+    text-align: center;
+    background-color: white;
+    margin-top: -17px;
+}
+
+#a-checkout{
+    margin-top: -1.5%;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+#a_bagDetails{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 1%;
+    width:60%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    margin-top: -0.5%;
+}
+
+#left-corner{
+    width:40%;
+    align-content: center;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+
+#right-corner {
+    width:auto;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+    padding-right: 2%;
+}
+
+#a_bag{
+    margin-left: 2%;
+}
+
+#a-cost{
+    margin-top: -5%;
+    margin-left: 9%;
+}
+
+#review{
+    text-decoration: underline;
+}
+
+#shipping-address{
+    margin: auto;
+    box-sizing: border-box;
+    padding:2%;
+    padding-top: 0.5%;
+    width:60%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    margin-top: 1%;
+}
+
+#sr{
+    display: flex;
+    justify-content: space-between;
+}
+
+#a-leftsection{
+    display: flex;
+    width:300px;
+}
+
+#a-rightsection{
+    width:5%;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#sr-1{
+    width:50px;
+    height:50px;
+    text-align: center;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding-top: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#srtext{
+    font-size: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+
+#Fname, #Lname, #A1, #A2, #city, #province, #ZIP, #phone{
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#Lname, #A1, #A2, #city, #province, #ZIP, #phone{
+    margin-top: 50px;
+}
+
+#firstname, #lastname, #address1, #address2, #a-city, #a-province, #a-zip, #a-phone{
+    border:1px solid grey;
+    box-sizing: border-box;
+    width:100%;
+    height:50px;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+#a-zip{
+    width:60%;
+}
+
+#add-cont-button{
+    text-align: center;
+    width:40%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#shipping, #payment, #billing-box{
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 0.5%;
+    width:60%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    margin-top: 1%;
+    padding-bottom: 30px;
+}
+
+#shipsr, #paysr{
+    display: flex;
+    justify-content: space-between;
+    padding-left:3%;
+    padding-right: 3%;
+}
+
+#sr-2, #sr-3{
+    width:50px;
+    height:50px;
+    text-align: center;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding-top: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+#option-box{
+    padding: 2%;
+    margin-top: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#option-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+#option-name{
+    width:20%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#shipping-fee{
+    width:30px;
+}
+
+#circle-dot{
+    font-size: 25px;
+    margin-top: -1px;
+}
+
+#Express{
+    margin-left: 10px;
+}
+
+#delivery-text{
+    width:90%;
+    margin: auto;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+#reciving-day{
+    margin-top: -5px;
+}
+
+
+#cont-button{
+    text-align: center;
+    width:40%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#card-options{
+    display:flex;
+    border-top: 1px solid grey;
+    align-items: center;
+    box-sizing: border-box;
+    padding:3%;
+    margin-top: 30px;
+}
+
+#visa, #amex, #jcb, #mastercard{
+    width:50px;
+    height:30px;
+    margin-left: 10px;
+    border:1px solid gray;
+}
+
+#card-details{
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#name-on-card{
+    font-size: 14px;
+}
+
+#card-number, #cvv{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#a-name-on-card, #a-card-number{
+    border:1px solid grey;
+    box-sizing: border-box;
+    width:100%;
+    height:50px;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+#exp-date{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+#a-month, #a-year{
+    border:1px solid grey;
+    box-sizing: border-box;
+    width:10%;
+    height:50px;
+    padding-left: 10px;
+}
+
+#dash{
+    box-sizing: border-box;
+    padding:5px;
+    margin-top: 1px;
+}
+
+#card-cvv{
+    display:flex;
+    margin-top: -10px;
+}
+
+#a-cvv{
+    border:1px solid grey;
+    box-sizing: border-box;
+    width:12%;
+    height:50px;
+    padding-left: 10px;
+}
+
+#cvvdemo{
+    width:10%;
+    height:50px;
+    margin-left: 10px;
+}
+
+#tip{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#pay-pal-section{
+    display: flex;
+    border-top: 1px solid gray;
+    box-sizing: border-box;
+    padding:3%;
+    align-items: center;
+}
+
+#pay-note{
+    margin-top: -2px;
+    padding-left: 4%;
+    font-size: 14px;
+    color:grey;
+}
+
+#paydetail-box{
+    border-bottom: 1px solid grey;
+}
+
+#circle, #firstcircle, #same-circle, #lastcircle{
+    width:24px;
+    height:24px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid gray;
+}
+
+#paypal-logo{
+    width:10%;
+    height:40px;
+    margin-left: 20px;
+}
+
+#pay-note{
+    display: block;
+}
+
+#b-headline{
+    margin-left: 3%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#billing-add-details{
+    border-top: 1px solid grey;
+}
+
+#newadd{
+    display: flex;
+    box-sizing: border-box;
+    padding:3%;
+    align-items: center;
+}
+
+#b-tip{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+#last-address{
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-left: 3%;
+}
+
+#another-address{
+    border-bottom: 1px solid grey;
+}
+
+#sameaddtext{
+    margin-left: 20px;
+}
+
+.billingdetails{
+        box-sizing: border-box;
+        padding-left: 8.5%;
+        line-height: 5px;
+}
+
+#form{
+    box-sizing: border-box;
+    padding:3%;
+    margin-top: -30px;
+}
+
+#review-btn{
+    text-align: center;
+    border:1px solid black;
+    width:40%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/****************/
+
+.storeduserdata{
+    width:81%;
+    margin: auto;
+    line-height: 7px;
+    margin-top: -20px;
+}
+
+.package{
+    width:78%;
+    margin: auto;
+    line-height: 7px;
+    margin-top: -70px;
+    font-size: 14px;
+}
+
+.rhead{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.reviewdiv{
+    text-align: center;
+}
+
+.line, .line4{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left:8%;
+    padding-right: 8%;
+    height:35px;
+    align-items: center;
+}
+
+.line4{
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.notediv{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width:84.5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#info{
+    font-size: 28px;
+}
+
+.note{
+    margin-left: 1%;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.btn{
+    border:1px solid black;
+    padding:15px 20% 15px 20%;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/*******************************************/
+#rem1, #rem2, #rem3, #rem5, #rem6, #rem7, #rem8, #card1, #card2, #card3, #card4{
+    color:firebrick;
+    font-size: 16px;
+    margin-top: 10px;
+}
