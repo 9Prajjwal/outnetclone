@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="./cart.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="title">
+        <h1>Shopping Bag</h1>
+        <p id="count1">1</p>
+    </div>
+    
+    <div id="box_main">
+        <div id="list"></div>
+
+        <div id="total">
+            <h4>Order Summary</h4>
+            <div id="cost">
+                <div id="cost_1">
+                    <p>Sub-Total (USD)</p>
+                    <p>Shipping (USD)</p>
+                    <p>Taxes & Duties (USD)</p>
+                </div>
+                <div id="cost_2">
+                    <p id="sub_total">000</p>
+                    <p id="shipping">000</p>
+                    <p id="tax">000</p>
+                </div>
+            </div>
+
+            <hr/>
+
+            <div id="promo">
+                <P>Apply Promo Code</P>
+                <div id="promocode">
+                    <div id="promocode_1">
+                        <input id="promo_input" type="text" placeholder="Promocode"  />
+                        <button id="apply">Apply</button>
+                    </div>
+                    <div id="promocode_2"></div>
+                </div>
+            </div>
+
+            <hr/>
+
+            <div id="final_cost">
+                <div id="final_cost_1">
+                    <p>Total (USD)</p>
+                </div>
+                <div id="final_cost_2">
+                    <p id="final">000</p>
+                </div>
+            </div>
+
+            <div>
+                <p id="saving">You are saving 0$</p>
+            </div>
+
+            <div>
+                <button  id="checkout">Proceed to Checkout</button>
+            </div>
+
+            <div id="pay_option">
+                <div>
+                    <img src="https://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Visa-icon.png" />
+                </div>
+                <div>
+                    <img src="https://logowik.com/content/uploads/images/787_mastercard.jpg" />
+                </div>
+                <div>
+                    <img src="https://s1.q4cdn.com/692158879/files/images/brand_imagery/AXP_BlueBoxLogo_Alternate_REGULARscale_RGB_DIGITAL_700x700.png" />
+                </div>
+                <div>
+                    <img src="https://cdn3.iconfinder.com/data/icons/payment-method/480/jcb_card_payment-1024.png" />
+                </div>
+                <div>
+                    <img src="https://1000logos.net/wp-content/uploads/2021/04/Paypal-logo-768x432.png" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./cart.js"></script>

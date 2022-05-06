@@ -1,0 +1,174 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    background-color: rgb(242, 242, 242);
+}
+#title{
+    width:92.3%;
+    margin: auto;
+    height: 100px;
+    padding:1%;
+    background-color: white;
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+#title > h1, #title > p{
+    background-color: white;
+}
+#box_main{
+    display: grid;
+    grid-template-columns: 65% 35%;   
+    gap: 0.75%;
+    margin: auto;
+    width:94%;
+    margin-top: 0.6%;
+}
+#list{
+    width: 100%;
+}
+#total{
+    text-align: center;
+    padding: 2.5%;
+    background-color: white;
+    height: 450px;
+}
+#total > h4, p{
+    background-color: white;
+}
+#cost, #final_cost{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+}
+#cost_1, #final_cost_1{
+    text-align:left;
+   margin-left: 5%;
+   line-height: 12px;
+   background-color: white;
+}
+#cost_2, #final_cost_2{
+    text-align:right;
+    margin-right: 5%;
+    background-color: white;
+}
+hr{
+    height:1px;
+    color:grey;
+    width:90%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: white;
+}
+#promo_input{
+    width:60%;
+    height: 36px;
+    background-color: white;
+    border: 1px solid black;
+}
+#promo{
+    background-color: white;
+}
+#promocode_1{
+    background-color: white;
+}
+#apply{
+    width:30%;
+    height: 41px;
+    background-color: rgb(242, 242, 242);
+    border: none;
+    cursor: pointer;
+}
+#checkout{
+    width:96%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+#pay_option{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+#pay_option > div > img{
+    width:50%;
+    height: 30px;
+}
+#box{
+    display: grid;
+    grid-template-columns: 25% 60% 15%;
+    padding: 2%;
+    margin-bottom: 1%;
+    background-color: white;
+    font-weight: lighter;
+}
+#box1{
+    margin: auto;
+    background-color: white;
+}
+#box1 > img{
+    width: 100%;
+    height: 130px;
+}
+#box2{
+    background-color: white;
+}
+#box2 > h3, #box2 >p{
+    background-color: white;
+}
+#box21{
+    display: flex;
+    gap:3%;
+    background-color: white;
+}
+#box21 > button{
+    margin-top: 1%;
+    width: 8%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    font-size:larger;
+    color: grey;
+}
+#box2 > h3{
+    letter-spacing: 1px;
+}
+#box22{
+    background-color: white;
+    display: flex;
+    gap:7%;
+    margin-top: -4%;
+}
+#box3{
+    display: flex;
+    align-items:flex-end;
+    align-content:center;
+    gap:12%;
+    background-color: white;
+}
+#box3 > button{
+    width: 30%;
+    height: 30px;
+    background-color: white;
+    border: none;
+    font-size:x-large;
+    cursor: pointer;
+    color: grey;
+}
+#stkprice{
+    text-decoration-line:line-through;
+}
+#dollar_box{
+    display: flex;
+    background-color: white;
+    color: rgb(198, 20, 20);
+}
+
+@media all and (min-width:80px) and (max-width:720px){
+    #box_main{
+        grid-template-columns: 100%;
+    }
+}
