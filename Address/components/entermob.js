@@ -17,11 +17,16 @@ let otp = () => {
 }
 
 let image = () => {
-    return `<img id="loading" src="https://flevix.com/wp-content/uploads/2019/07/Ball-Drop-Preloader-1-1.gif" alt="">`;
+    return `<img id="loading" src="https://flevix.com/wp-content/uploads/2019/07/Ball-Drop-Preloader-1-1.gif" alt="">`
+    
+}
+
+let done = () => {
+    return `<button id="tohome">Go To HomePage</button>`;
 }
 
 let resend = () => {
     return `<p id="resend">Resend</p>`;
 }
 
-export {mob, otp, image, resend};
+export {mob, otp, image, resend, done};
