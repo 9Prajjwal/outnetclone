@@ -1,0 +1,112 @@
+
+#box{
+    margin-top: 1%;
+    width: 100%;
+    height: 200px;
+}
+#b1{
+    width: 15%;
+    height: 50px;
+    margin-left: 2%;
+}
+#b1>a{
+    font-size: 20px;
+    background-color: rgb(242,242,242);
+    color: black;
+}
+#b1 p{
+    color: rgb(138, 136, 136);
+    margin-left: 12%;
+    margin-top: -10%;
+}
+#b2{
+    width: 1450px;
+    height: 200px;
+    margin-top: -2%;
+    margin-left: 10%;
+}
+#b2 h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#b3{
+    display: flex;
+    margin-top: -30%;
+    margin-left: 40%;
+}
+#b3 p{
+    color: black;
+    background-color: rgb(242,242,242);
+    margin-left:30%;
+}
+#b4{
+    display: flex;
+    width: 1400px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#b4 div{
+    width: 30%;
+    height: 40px;
+    margin: auto;
+}
+#img1>p{
+    color: black;
+}
+.fa-solid{
+    margin-top: 5%;
+}
+#f{
+    margin-top: 15%;
+}
+#rgt{
+    display: flex;
+    height: 50px;
+    width: 25%;
+    margin-left: 75%;
+    margin-top: -4%;
+    justify-content: space-around;
+}
+#search{
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    border-style: none;
+}
+#heart{
+    margin-left: 35%;
+}
+#rgt>div{
+    height: 30px;
+    width: 65%;
+}
+#line{
+    margin-left: 2%;
+    border: 1px solid rgb(226, 223, 223);
+    width: 1450px;
+    margin-top: 5%;
+}
+#rgt>#sch{
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: -34%
+}
+#rgt>a{
+    cursor: pointer;
+}
+#link{
+    font-size: 20px;
+    width: 10%;
+    margin-top: -8%;
+    margin-left: 5%;
+}
+#link>p{
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+#wn{
+   margin-left: 39%;
+   margin-top: -30%;
+}

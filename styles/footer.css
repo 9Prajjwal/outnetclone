@@ -1,0 +1,95 @@
+
+#bag{
+    width: 100%;
+    height: 600px;
+}
+#head{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+#head>div{
+    width: 50%;
+    height: 30px;
+}
+#head>#b1{
+    margin-left: -1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#neck{
+    display: flex;
+    margin-left: 2%;
+}
+#neck>div{
+    width: 40%;
+    height: 500px;
+}
+#d1{
+    display: flex;
+    width: 50%;
+}
+#d1>div{
+    width: 40%;
+    height: 500px;
+}
+#d1>.dr{
+    margin-left: 10%;
+}
+#neck>#d2{
+    margin-left: 10%;
+    width: 33%;
+}
+#ten>p{
+    margin: 30px;
+}
+.dr>p{
+    margin: 30px;
+}
+#d2>#inp{
+    width: 50%;
+   height: 40px;
+}
+button{
+    width: 20%;
+    height: 45px;
+}
+
+.c{
+    margin: 25px -1px;
+  font-size: 20px;
+}
+#box{
+    width: 35%;
+    height: 40px;
+}
+#pn{
+    margin-top: -15%;
+    margin-left: 30%;
+}
+#em{
+    margin-top: -15%;
+    margin-left: 30%;
+}
+#bos{
+    width: 35%;
+    height: 40px;
+    margin-top: 5%;
+}
+#social{
+    margin-top: 15%;
+    font-size: 20px;
+}
+#site{
+    width: 80%;
+    height: 50px;
+    margin-top: -2%;
+    margin-left: -8%;
+}
+#site>span{
+    margin-left: 10%;
+}
+.last{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 50%; 
+}
