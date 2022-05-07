@@ -94,7 +94,7 @@ let enter = () => {
                     helper("loading").src = "https://dealsnaijashop.com/wp-content/uploads/2020/09/icon_confirmation-1.gif";
                     helper("done").innerHTML = done();
                     helper("tohome").addEventListener("click",() => {
-                        alert("done");
+                        window.location.href = "../men.html"
                     })
                     alert("Order Confirmed");
                     break;
