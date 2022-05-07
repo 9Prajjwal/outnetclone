@@ -1,0 +1,29 @@
+
+#write{
+    width: 30%;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 6%;
+    font-size: 20px;
+    /* border: 1px solid white; */
+    border-style: none;
+}
+#SEARCH{
+    width: 60%;
+    height: 600px;
+    margin-left: 20%;
+    overflow:scroll;
+}
+.image{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.h3{
+    text-align: center;
+}
+.divs{
+    width: 50%;
+    margin: auto;
+}
