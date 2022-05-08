@@ -50,7 +50,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/30629810019650187/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/30629810019650187/E/w1020_q80.jpg",
-        title: "KOCHÉ X EMILIO PUCCI",
+        title: "IRO",
         description: "Printed silk-twill tie",
         price: 69,
         strikedoffprice: 174,
@@ -75,7 +75,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/42247633209030580/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/42247633209030580/R/w1020_q80.jpg",
-        title: "VINCE.",
+        title: "SANDRO",
         description: "Checked cotton-flannel shirt",
         price: 110,
         strikedoffprice: 245,
@@ -100,7 +100,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597276270451/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597276270451/R/w1020_q80.jpg",
-        title: "ACNE STUDIOS",
+        title: "VALENTINO",
         description: "Organza-paneled cotton-canvas hooded parka",
         price: 599,
         strikedoffprice: 1198,
@@ -125,7 +125,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/33258524072201157/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597276288968/R/w1020_q80.jpg",
-        title: "ETRO",
+        title: "VALENTINO",
         description: "Cotton-jacquard shirt",
         price: 137,
         strikedoffprice: 375,
@@ -150,7 +150,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597278724310/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597278724310/R/w1020_q80.jpg",
-        title: "YEEZY",
+        title: "DOLCE & GABBANA",
         description: "Waxed shell jacket",
         price: 170,
         strikedoffprice: 341,
@@ -162,7 +162,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/45666037504656755/F/w1020_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/45666037504656755/R/w1020_q80.jpg",
-        title: "ERMENEGILDO ZEGNA",
+        title: "DOLCE & GABBANA",
         description: "Slim-fit denim jeans",
         price: 290,
         strikedoffprice: 581,
@@ -175,7 +175,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/46376663162660068/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/46376663162660068/R/w1020_q80.jpg",
-        title: "FRAME",
+        title: "DOLCE & GABBANA",
         description: "L'Homme skinny-fit distressed denim jeans",
         price: 114,
         strikedoffprice: 285,
@@ -200,7 +200,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597279350498/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597279350498/R/w1020_q80.jpg",
-        title: "Adidas",
+        title: "IRO",
         description: "Cotton-blend gabardine cargo pants",
         price: 165,
         strikedoffprice: 413,
@@ -212,7 +212,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597277666446/F/w1020_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597277666446/R/w1020_q80.jpg",
-        title: "ONIA",
+        title: "IRO",
         description: "French cotton-terry shorts",
         price: 42,
         strikedoffprice: 84,
@@ -237,7 +237,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597278546449/F/w1020_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597278546449/R/w1020_q80.jpg",
-        title: "YEEZY",
+        title: "SANDRO",
         description: "Faded French cotton-terry T-shirt",
         price: 89,
         strikedoffprice: 162,
@@ -249,7 +249,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597277668035/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597277668035/R/w1020_q80.jpg",
-        title: "ONIA",
+        title: "VALENTINO",
         description: "Jersey T-shirt",
         price: 18,
         strikedoffprice: 35,
@@ -274,7 +274,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597278278520/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597278278520/R/w1020_q80.jpg",
-        title: "VINCE.",
+        title: "SANDRO",
         description: "Bonham suede boots",
         price: 204,
         strikedoffprice: 371,
@@ -286,7 +286,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597279232004/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597279232004/R/w1020_q80.jpg",
-        title: "MAISON MARGIELA",
+        title: "RAG & BONE",
         description: "Glossed-leather brogues",
         price: 428,
         strikedoffprice: 857,
@@ -311,7 +311,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597279044576/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597279044576/R/w1020_q80.jpg",
-        title: "APL® ATHLETIC PROPULSION LABS",
+        title: "PESERICO",
         description: "TechLoom embossed mesh slides",
         price: 54,
         strikedoffprice: 106,
@@ -324,7 +324,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597279044479/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597279044479/R/w1020_q80.jpg",
-        title: "APL® ATHLETIC PROPULSION LABS",
+        title: "IRO",
         description: "TechLoom embossed mesh slides",
         price: 68,
         strikedoffprice: 124,
@@ -336,7 +336,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597278276464/F/w1020_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597278276464/R/w1020_q80.jpg",
-        title: "VINCE.",
+        title: "RAG & BONE",
         description: "Alonzo suede slippers",
         price: 105,
         strikedoffprice: 192,
@@ -349,7 +349,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597278436648/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597278436648/R/w1020_q80.jpg",
-        title: "VINCE.",
+        title: "SANDRO",
         description: "Alonzo suede slippers",
         price: 105,
         strikedoffprice: 192,
@@ -374,7 +374,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597278440529/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597278440529/R/w1020_q80.jpg",
-        title: "MICHAEL KORS",
+        title: "VALENTINO",
         description: "Keating logo-print smooth and textured-leather sneakers",
         price: 108,
         strikedoffprice: 198,
@@ -386,7 +386,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597279142945/F/w1020_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597279142945/R/w1020_q80.jpg",
-        title: "APL® ATHLETIC PROPULSION LABS",
+        title: "SANDRO",
         description: "TechLoom Wave mesh running sneakers",
         price: 108,
         strikedoffprice: 217,
@@ -399,7 +399,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597279142568/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597279142568/R/w1020_q80.jpg",
-        title: "APL® ATHLETIC PROPULSION LABS",
+        title: "RAG & BONE",
         description: "TechLoom Wave mesh running sneakers",
         price: 108,
         strikedoffprice: 217,
@@ -412,7 +412,7 @@ let data = [{
     {
         img_1: "https://www.theoutnet.com/variants/images/46376663162524609/F/w520_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/46376663162524609/R/w1020_q80.jpg",
-        title: "OSEMITE",
+        title: "PESERICO",
         description: "Cotton-blend stretch-twill shorts",
         price: 194,
         strikedoffprice: 389,
