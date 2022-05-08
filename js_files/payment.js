@@ -2,7 +2,7 @@ let helper = (id) => {
     return document.getElementById(id);
 }
 
-import { mob, otp, image, resend, done } from "../Address/components/entermob.js";
+import { mob, otp, image, resend, done } from "./entermob.js";
 
 helper("entermobile").innerHTML = mob();
 
@@ -94,7 +94,7 @@ let enter = () => {
                     helper("loading").src = "https://dealsnaijashop.com/wp-content/uploads/2020/09/icon_confirmation-1.gif";
                     helper("done").innerHTML = done();
                     helper("tohome").addEventListener("click",() => {
-                        window.location.href = "../men.html"
+                        window.location.href = "./women_home.html"
                     })
                     alert("Order Confirmed");
                     break;

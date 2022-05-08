@@ -3,7 +3,7 @@ let helper = (id) => {
 }
 
 
-import { addressdetails, addcontbutton, optiondetails, contsubmit, card, carddetails, billbook } from "../Address/components/addressdetails.js";
+import { addressdetails, addcontbutton, optiondetails, contsubmit, card, carddetails, billbook } from "../js_files/addressdetails.js";
 
 helper("details").innerHTML = addressdetails();
 
@@ -490,7 +490,7 @@ let review = () => {
         btn.setAttribute("class", "btn");
         btn.innerText = "Buy Now";
         btn.addEventListener("click", () => {
-            window.location.href = "paymentspage.html";
+            window.location.href = "../html/paymentspage.html";
         });
 
         reviewbox.append(rhead, line1, line2, line3, line4, line5, notediv, btn);

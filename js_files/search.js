@@ -1,9 +1,9 @@
 
-import {search} from "../components/searchByname.js";
+import {search} from "./searchByname.js";
 let s = document.getElementById("search");
 s.innerHTML = search();
 
-import {searchData,append} from "../components/searchByname.js"
+import {searchData,append} from "./searchByname.js"
 
 let SEARCH = document.getElementById("SEARCH");
 

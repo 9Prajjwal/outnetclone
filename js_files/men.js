@@ -1,5 +1,5 @@
 
-import {navbar} from "../components/navbar.js"
+import {navbar} from "./navbar.js"
 let n = document.getElementById("navbar");
 n.innerHTML = navbar();
 
@@ -20,3 +20,5 @@ w.addEventListener("click",moved)
 function moved(){
     window.location.href = "women.html";
 }
+
+document.querySelector("#navbar").innerHTML=navbar();

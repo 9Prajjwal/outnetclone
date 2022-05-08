@@ -1,4 +1,4 @@
-import showData from "../Components/data.js";
+import showData from "./data.js";
 
 let data1 = showData();
 
