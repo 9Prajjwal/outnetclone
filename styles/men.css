@@ -16,8 +16,6 @@
 }
 
 
-
-
 #b1{
     width: 15%;
     height: 50px;
@@ -57,7 +55,7 @@
 
 
 #b2{
-    width: 1450px;
+    width: 1825%;
     height: 200px;
     margin-top: -2%;
     margin-left: 10%;
@@ -87,9 +85,9 @@
 }
 #b4{
     display: flex;
-    width: 1433px;
+    width: 1825%;
     height: 50px;
-    margin-left:50%;
+    margin-left:44%;
     margin-top: 5%;
     background-color: #f2f2f2;
 }
@@ -129,9 +127,9 @@
     width: 65%;
 }
 #line{
-    margin-left: 50%;
+    margin-left: 44%;
     border: 0.5px solid rgb(230, 229, 229);
-    width: 1430px;
+    width: 1825%;
     margin-top: 5%;
 }
 #rgt>#sch{
