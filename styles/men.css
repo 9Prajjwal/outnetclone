@@ -69,7 +69,7 @@
 }
 
 #gap{
-    margin-left: 200%;
+    margin-left: 160%;
 }
 
 
@@ -92,9 +92,12 @@
     background-color: #f2f2f2;
 }
 #b4 div{
-    width: 28%;
+    width: 32%;
     height: 40px;
     margin: auto;
+}
+#b4 > div:first-child{
+    margin-left: 5%;
 }
 #img1>p{
     color: black;
