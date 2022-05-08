@@ -3,6 +3,10 @@
     width: 100%;
     height: 600px;
 }
+
+#bag:hover{
+    cursor: pointer;
+}
 #head{
     display: flex;
     margin-top: 4%;
@@ -40,11 +44,30 @@
     width: 33%;
 }
 #ten>p{
-    margin: 30px;
+    margin:18px 30px;
+    font-size: 13px;
 }
 .dr>p{
-    margin: 30px;
+    margin:18px 30px;
+    font-size: 13px;
 }
+#d2>p{
+    margin:18px 0px;
+    font-size: 13px;
+}
+#d2>p:nth-child(6){
+    font-size: 18px;
+}
+
+.c+div>span>p{
+    font-size: 13px;
+}
+
+#bos>span>p{
+    font-size: 13px;
+}
+
+
 #d2>#inp{
     width: 50%;
    height: 40px;

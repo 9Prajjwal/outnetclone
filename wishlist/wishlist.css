@@ -20,13 +20,13 @@
     width: 95%;
     color: rgb(81, 81, 81);
 }
-/* #box{
-    ma
-} */
+#box_mumbai{
+    width: 100%;
+}
 #image_wish{
     width:80%;
     margin: auto;
-    height: auto;   
+    height: auto; 
 }
 #box_top{
     display: flex;
@@ -71,6 +71,10 @@
     height: auto;
     display: flex;
     justify-content: center;
+}
+#mera_hr{
+    width: 94%;
+    margin: auto;   
 }
 
 @media all and (min-width:401px) and (max-width:720px){

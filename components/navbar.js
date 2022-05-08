@@ -11,8 +11,10 @@ function navbar(){
            <p>Delivery</p>
            <p>Returns</p>
            </div>
+           
 
            <div id="b2">
+           
                 <h1>THE OUTNET</h1>
                 <div id="rgt">
                     <div>
@@ -27,6 +29,9 @@ function navbar(){
                     </div>
                 </div>
            </div>
+
+           
+
            <div id="b3">
            <div id="gap"></div>
             <p>Just.In</p>
@@ -44,18 +49,23 @@ function navbar(){
            <div id="line"></div>
            <div id="b4">
                <div id="img1">
-                   <img src="https://www.theoutnet.com/ycm/resource/blob/1202300/8c41f371b963212fbd38dfd2fde14f42/hanger-data.png" height="50px"/><p>Extra 15% off your first clothing order FIRST15</p>
+                   <img src="https://www.theoutnet.com/ycm/resource/blob/1202300/8c41f371b963212fbd38dfd2fde14f42/hanger-data.png" height="50px"/><p>Extra 15% off your clothing order FIRST15</p>
                </div>
                <div id="img1">
-                   <img src="https://www.theoutnet.com/ycm/resource/blob/1213144/676b59aa4d571f46beb0f2c0b7316b2d/delivery-truck-icon-data.png" height="50px"><p>Shop Elavated essentials - shirts, sneakers and more</p> 
+                   <img src="https://www.theoutnet.com/ycm/resource/blob/1213144/676b59aa4d571f46beb0f2c0b7316b2d/delivery-truck-icon-data.png" height="50px"><p>Shop Elavated essentials - shirts, sneakers</p> 
                </div>
                <div id="img1">
-                   <img src="https://www.theoutnet.com/ycm/resource/blob/1257912/a89d1fd400b76c8386958cf7cdcdfaea/mobile-icon-data.png" height="50px">                   <p id="f">Extra 20% off when you shop via our app</p>
+                   <img src="https://www.theoutnet.com/ycm/resource/blob/1257912/a89d1fd400b76c8386958cf7cdcdfaea/mobile-icon-data.png" height="50px">   <p id="f">Extra 20% off when you shop via app</p>
                </div>
            </div>
         </div>
     </div>
-    <br><br><br><br><br><br><br><br><br>
+
+    <div id="menWomen">
+                <p>Women</p>
+                <p>Men</p>
+    </div>
+    <br><br><br><br><br>
     `
 }
 

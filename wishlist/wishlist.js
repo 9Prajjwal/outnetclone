@@ -1,61 +1,11 @@
-// let data = [
-//     {
-//         img_1:"https://www.theoutnet.com/variants/images/36856120585104777/F/w720_q80.jpg",
 
-//         img_2:"https://www.theoutnet.com/variants/images/36856120585104777/E/w1020_q80.jpg",
-
-//         title:"STELLA MCCARTNEY",
-
-//         description:"Oversized floral-print cotton shirt",
-
-//         price:"220",
-
-//         strikedoffprice:"490",
-
-//         discount:"55% off",
-//     },
-
-//     {
-//         img_1:"https://www.theoutnet.com/variants/images/42247633208268985/F/w720_q80.jpg",
-
-//         img_2:"https://www.theoutnet.com/variants/images/42247633208268985/R/w1020_q80.jpg",
-
-//         title:"BALMAIN",
-
-//         description:"Flocked tulle-paneled ruched jersey mini dress",
-
-//         price:"1594",
-
-//         strikedoffprice:"3,186",
-
-//         discount:"50% off",
-//     },
-
-//     {
-//         img_1:"https://www.theoutnet.com/variants/images/38063312420896001/F/w720_q80.jpg",
-
-//         img_2:"https://www.theoutnet.com/variants/images/38063312420896001/R/w1020_q80.jpg",
-
-//         title:"TOM FORD",
-
-//         description:"Striped knitted sweater",
-
-//         price:"574",
-
-//         strikedoffprice:"1,641",
-
-//         discount:"65% off",
-//     }
-// ]
-
-// localStorage.setItem("wishlist", JSON.stringify(data));
 
 let wishData= JSON.parse(localStorage.getItem("wishlist"));
 
 function displayList(){
     wishData.forEach(function(el, index){
         let box= document.createElement("div");
-        box.id="box";
+        box.id="box_mumbai";
         let box_top= document.createElement("div");
         box_top.id="box_top";
         let box_down= document.createElement("div");
@@ -74,7 +24,8 @@ function displayList(){
         let addtoBag= document.createElement("button");
         addtoBag.id="addtoBag";
         addtoBag.addEventListener("click", function(){
-            addtoCartfun(el, index)
+            addtoCartfun(el, index);
+            addtoBag.innerText= "Added to bag"
         })
         let remove= document.createElement("button");
 

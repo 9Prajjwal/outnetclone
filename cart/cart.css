@@ -1,21 +1,27 @@
 *{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    background-color: rgb(242, 242, 242);
 }
-#title{
-    width:92.3%;
+#container_anurag{
+    width: 94%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(242, 242, 242);
+    padding: 1.5% 0% 1% 0%;
+    font-size: 14px;
+}
+#title_anurag{
+    width:92.7%;
     margin: auto;
     height: 100px;
     padding:1%;
     background-color: white;
     letter-spacing: 1px;
-    margin-top: 2%;
+    margin-left: 3%;
 }
-#title > h1, #title > p{
+#title_anurag > h1, #title_anurag > p{
     background-color: white;
 }
-#box_main{
+#box_main_anurag{
     display: grid;
     grid-template-columns: 65% 35%;   
     gap: 0.75%;
@@ -23,30 +29,30 @@
     width:94%;
     margin-top: 0.6%;
 }
-#list{
+#list_anurag{
     width: 100%;
 }
-#total{
+#total_anurag{
     text-align: center;
     padding: 2.5%;
     background-color: white;
     height: 450px;
 }
-#total > h4, p{
+#total_anurag > h4, #total_anurag > p{
     background-color: white;
 }
-#cost, #final_cost{
+#cost_anurag, #final_cost{
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: white;
 }
-#cost_1, #final_cost_1{
+#cost_1_anurag, #final_cost_1{
     text-align:left;
    margin-left: 5%;
    line-height: 12px;
    background-color: white;
 }
-#cost_2, #final_cost_2{
+#cost_2_anurag, #final_cost_2{
     text-align:right;
     margin-right: 5%;
     background-color: white;
@@ -71,7 +77,7 @@ hr{
 #promocode_1{
     background-color: white;
 }
-#apply{
+#apply_anurag{
     width:30%;
     height: 41px;
     background-color: rgb(242, 242, 242);
@@ -96,7 +102,7 @@ hr{
     width:50%;
     height: 30px;
 }
-#box{
+#box_anurag{
     display: grid;
     grid-template-columns: 25% 60% 15%;
     padding: 2%;
@@ -104,26 +110,26 @@ hr{
     background-color: white;
     font-weight: lighter;
 }
-#box1{
+#box1_anurag{   
     margin: auto;
     background-color: white;
 }
-#box1 > img{
+#box1_anurag > img{
     width: 100%;
     height: 130px;
 }
-#box2{
+#box2_anurag{
     background-color: white;
 }
-#box2 > h3, #box2 >p{
+#box2_anurag > h3, #box2_anurag >p{
     background-color: white;
 }
-#box21{
+#box21_anurag{
     display: flex;
     gap:3%;
     background-color: white;
 }
-#box21 > button{
+#box21_anurag > button{
     margin-top: 1%;
     width: 8%;
     height: 30px;
@@ -133,23 +139,23 @@ hr{
     font-size:larger;
     color: grey;
 }
-#box2 > h3{
+#box2_anurag > h3{
     letter-spacing: 1px;
 }
-#box22{
+#box22_anurag{
     background-color: white;
     display: flex;
     gap:7%;
     margin-top: -4%;
 }
-#box3{
+#box3_anurag{
     display: flex;
     align-items:flex-end;
     align-content:center;
     gap:12%;
     background-color: white;
 }
-#box3 > button{
+#box3_anurag > button{
     width: 30%;
     height: 30px;
     background-color: white;
@@ -168,7 +174,7 @@ hr{
 }
 
 @media all and (min-width:80px) and (max-width:720px){
-    #box_main{
+    #box_main_anurag{
         grid-template-columns: 100%;
     }
 }

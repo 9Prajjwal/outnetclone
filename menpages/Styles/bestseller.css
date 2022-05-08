@@ -1,5 +1,7 @@
 /* Header div */
-
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .header{
     display: grid;
     grid-template-columns: repeat(2,50%);
@@ -31,7 +33,6 @@
     grid-template-columns: repeat(3, 30%);
     gap: 5%;
 }
-
 .product img{
     width: 195px;
     height: 294px;

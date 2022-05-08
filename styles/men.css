@@ -15,7 +15,6 @@
     margin-top: -56px;
 }
 
-
 #b1{
     width: 15%;
     height: 50px;
@@ -54,12 +53,25 @@
 }
 
 
+#menWomen{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 6.5%;
+    font-size: 22px;
+}
+
+#menWomen>p{
+    margin:18px 20px;
+}
+
 #b2{
     width: 1825%;
     height: 200px;
     margin-top: -2%;
     margin-left: 10%;
 }
+
+
 #b2 h1{
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -69,7 +81,7 @@
 }
 
 #gap{
-    margin-left: 200%;
+    margin-left: 160%;
 }
 
 
@@ -92,12 +104,16 @@
     background-color: #f2f2f2;
 }
 #b4 div{
-    width: 28%;
+    width: 32%;
     height: 40px;
     margin: auto;
 }
+#b4 > div:first-child{
+    margin-left: 5%;
+}
 #img1>p{
     color: black;
+    background-color: rgb(242,242,242);
 }
 .fa-solid{
     margin-top: 5%;
