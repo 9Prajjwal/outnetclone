@@ -1,0 +1,75 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#parent {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.maindiv>img {
+    width: 240px;
+    height: 280px;
+}
+#products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    padding: 20px;
+    
+    
+}
+
+#filter {
+   
+    width: 226px;
+    height: 1500px;
+    border-left:none ;
+}
+#filter input{
+    width: 15px;
+    height: 15px;
+    margin-right: 12px;
+}
+label{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+#filter>div {
+    display: grid;
+    width: 88%;
+    padding: 20px 0px 15px 25px;
+    border-bottom: 1px solid #e9e9ed;
+    border-right:#e9e9ed solid 1px;
+
+}
+
+#filter>div>div {
+    display: grid;
+    margin-bottom: 10px;
+
+}
+
+#sort {
+    padding: 5px;
+    margin-left: 84.8%;
+    margin-bottom: -40px;
+   
+}
+
+.priceDiv {
+    display: flex;
+    width: 90%;
+    margin-top: -12px;
+    margin-bottom: -10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#infoDiv{
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
