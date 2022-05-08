@@ -1,0 +1,45 @@
+/* Header div */
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows:repeat(1, 280px) ;
+    padding: auto;
+    margin: 100px;
+    grid-gap: 15%;
+}
+
+.text{
+    text-align: left;
+    padding: 0;
+}
+.image{
+    left: unset;
+    right: 0;
+    margin: 0 120px 0 0;
+}
+.image img{
+    height: 280px;
+    width: 280px;
+}
+
+#products{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5%;
+}
+
+.product img{
+    width: 195px;
+    height: 294px;
+}
+
+.product{
+    text-align: center;
+    line-height: 2%;
+}
+
+.strikep {
+    text-decoration: line-through;
+   
+}

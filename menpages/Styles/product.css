@@ -1,0 +1,19 @@
+#main {
+    display: flex;
+
+}
+
+#images img{
+    width: 390px;
+    height: 583px;
+}
+
+.addToBag {
+    width: 90%;
+    text-align: center;
+}
+
+.wishListp {
+    width: 90%;
+    text-align: center;
+}
