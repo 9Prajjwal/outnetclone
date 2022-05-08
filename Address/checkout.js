@@ -460,7 +460,7 @@ let review = () => {
 
         let totalprice = document.createElement("p");
         totalprice.setAttribute("class", "totalprice");
-        totalprice.innerText = `$${50 + 158 + 25}`;
+        totalprice.innerText = `$${50 + 158 + 30}`;
         line4_right.append(totalprice);
 
         let line5 = document.createElement("div");

@@ -44,7 +44,7 @@ let optiondetails = () => {
                     <p id="Express">Express</p>
                 </div>
                 <div id="shipping-fee">
-                    <p id="a-ship-price">$25</p>
+                    <p id="a-ship-price">$30</p>
                 </div>
             </div>
 
