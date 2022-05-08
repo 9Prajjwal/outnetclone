@@ -5,6 +5,12 @@ function navbar(){
         <div id="b1">
            <a href="signup.html"><span><i class="fa-solid fa-user fa-large"></i></span></a>
            <p id="baccha">Sign-In</p>
+           <div id="background">
+           <p>Your Order</p>
+           <p>Customer Care</p>
+           <p>Delivery</p>
+           <p>Returns</p>
+           </div>
 
            <div id="b2">
                 <h1>THE OUTNET</h1>
