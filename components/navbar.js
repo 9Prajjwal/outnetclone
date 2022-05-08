@@ -65,7 +65,7 @@ function navbar(){
                 <p>Women</p>
                 <p>Men</p>
     </div>
-    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br>
     `
 }
 
