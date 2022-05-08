@@ -34,6 +34,7 @@ function displayCart(){
         count.id="count_anurag";
         let remove= document.createElement("button");
         let addwish= document.createElement("button");
+        addwish.id="button_pune";
 
         image.src= el.img_1;
         box1.append(image);
@@ -54,8 +55,16 @@ function displayCart(){
                 total_price = total_price- Number(pric.innerText);
                 console.log(total_price);
                 document.getElementById("sub_total_anurag").innerText= total_price;
-                document.getElementById("final").innerText= total_price +(30+ 0.18*total_price);
+                document.getElementById("final").innerText=  (total_price +(30+ 0.18*total_price)).toFixed(2);
+                let arr= [];
+                let last= (total_price +(30+ 0.18*total_price)).toFixed(2);
+                arr.push(last);
+                localStorage.setItem("amount", JSON.stringify(arr))
                 document.getElementById("tax").innerText= (0.18*total_price).toFixed(2);
+                let arr1= [];
+                let last1= (0.18*total_price).toFixed(2);
+                arr1.push(last1);
+                localStorage.setItem("tax", JSON.stringify(arr1))
                 }
                 
         })
@@ -69,8 +78,16 @@ function displayCart(){
                 total_price += Number(pric.innerText);
                 console.log(total_price);
                 document.getElementById("sub_total_anurag").innerText= total_price;
-                document.getElementById("final").innerText= total_price +(30+ 0.18*total_price);
+                document.getElementById("final").innerText= (total_price +(30+ 0.18*total_price)).toFixed(2);
+                let arr= [];
+                let last= (total_price +(30+ 0.18*total_price)).toFixed(2);
+                arr.push(last);
+                localStorage.setItem("amount", JSON.stringify(arr))
                 document.getElementById("tax").innerText= (0.18*total_price).toFixed(2);
+                let arr1= [];
+                let last1= (0.18*total_price).toFixed(2);
+                arr1.push(last1);
+                localStorage.setItem("tax", JSON.stringify(arr1))
                 }
                 
         })
@@ -88,6 +105,7 @@ function displayCart(){
         addwish.innerText= "♡"
         ///-----add to wishlist----
         addwish.addEventListener("click", function(){
+            document.getElementById("button_pune").innerText= "❤";
             addtoWishlist(el, index);
         })
         box3.append(remove, addwish);
@@ -128,8 +146,16 @@ function promocode(){
     if(document.getElementById("promo_input").value==="MAY20"){
         let d= Number(document.getElementById("final").innerText)
         d= 0.8*d;
+            let arr= [];
+                let last= d;
+                arr.push((last).toFixed(2));
+                localStorage.setItem("amount", JSON.stringify(arr))
         document.getElementById("final").innerText= d.toFixed(2);
-        let f= d*0.2
+        let f= d*0.18
+                let arr1= [];
+                let last1= f;
+                arr1.push((last1).toFixed(2));
+                localStorage.setItem("tax", JSON.stringify(arr1))
         document.getElementById("saving").innerText= `You are saving $ ${f.toFixed(2)}`;
     }
     else{
@@ -143,3 +169,7 @@ function gotoPayment(){
 }
 document.getElementById("checkout").addEventListener("click", gotoPayment)
 
+function proceed(){
+    window.location.href="../html/checkout.html"
+}
+document.getElementById("checkout").addEventListener("click", proceed);
