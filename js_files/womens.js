@@ -4,7 +4,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/46376663162746980/F/w1020_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/46376663162746980/R/w1020_q80.jpg",
-        brand: "ALICE + OLIVIA",
+        title: "ALICE + OLIVIA",
         description: "Kenya pleated stretch-tulle midi skirt",
         price: 203,
         strikedoffprice: 406,
@@ -13,7 +13,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/46376663162784181/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/46376663162784181/R/w1020_q80.jpg",
-        brand: "ALICE + OLIVIA",
+        title: "ALICE + OLIVIA",
         description: "Macey metallic floral-jacquard blazer",
         price: 286,
         strikedoffprice: 573,
@@ -22,7 +22,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597275989783/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597275989783/R/w1020_q80.jpg",
-        brand: "ALICE + OLIVIA",
+        title: "ALICE + OLIVIA",
         description: "Kiara shirred cotton and silk-blend voile midi dress",
         price: 318,
         strikedoffprice: 637,
@@ -31,7 +31,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/43769801098419047/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/43769801098419047/R/w1020_q80.jpg",
-        brand: "ALICE + OLIVIA",
+        title: "ALICE + OLIVIA",
         description: "Willa crystal-embellished frayed silk crepe de chine shirt",
         price: 229,
         strikedoffprice: 458,
@@ -41,7 +41,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597275989653/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597275989653/R/w1020_q80.jpg",
-        brand: "ALICE + OLIVIA",
+        title: "ALICE + OLIVIA",
         description: "Kenley cotton-blend jersey wide-leg pants ",
         price: 187,
         strikedoffprice: 500,
@@ -50,7 +50,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/42247633208262636/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/42247633208262636/R/w1020_q80.jpg",
-        brand: "BALMAIN",
+        title: "BALMAIN",
         description: "Crepon-paneled wool-blend tweed jacket",
         price: 2005,
         strikedoffprice: 3186,
@@ -60,7 +60,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/42247633208276978/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/42247633208276978/R/w1020_q80.jpg",
-        brand: "BALMAIN",
+        title: "BALMAIN",
         description: "Appliquéd metallic jacquard-knit T-shirt ",
         price: 955,
         strikedoffprice: 1911,
@@ -69,7 +69,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/23471478576285274/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/23471478576285274/R/w1020_q80.jpg",
-        brand: "BALMAIN",
+        title: "BALMAIN",
         description: "Fringed metallic bouclé-knit mini skirt ",
         price: 424,
         strikedoffprice: 1410,
@@ -78,7 +78,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/42247633208269983/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/42247633208269983/R/w1020_q80.jpg",
-        brand: "BALMAIN",
+        title: "BALMAIN",
         description: "Strapless embellished ruffled jersey mini dress",
         price: 1290,
         strikedoffprice: 2869,
@@ -87,7 +87,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/42247633208293673/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/42247633208293673/R/w1020_q80.jpg",
-        brand: "BALMAIN",
+        title: "BALMAIN",
         description: "Satin-trimmed wool slim-leg pants",
         price: 639,
         strikedoffprice: 1162,
@@ -96,7 +96,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597276288968/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597276288968/R/w1020_q80.jpg",
-        brand: "STUDIOS",
+        title: "STUDIOS",
         description: "Ribbed wool cardigan ",
         price: 335,
         strikedoffprice: 184,
@@ -105,7 +105,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597276290463/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597276290463/R/w1020_q80.jpg",
-        brand: "STUDIOS",
+        title: "STUDIOS",
         description: "Ribbed wool-blend turtleneck sweater",
         price: 209,
         strikedoffprice: 509,
@@ -114,7 +114,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597276258123/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597276258123/R/w1020_q80.jpg",
-        brand: "STUDIOS",
+        title: "STUDIOS",
         description: "Striped Coat",
         price: 182,
         strikedoffprice: 365,
@@ -123,7 +123,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597276292032/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597276292032/R/w1020_q80.jpg",
-        brand: "STUDIOS",
+        title: "STUDIOS",
         description: "Striped knitted cardigan",
         price: 415,
         strikedoffprice: 815,
@@ -132,7 +132,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/36093695688927142/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/36093695688927142/R/w1020_q80.jpg",
-        brand: "STUDIOS",
+        title: "STUDIOS",
         description: "Striped stretch-canvas slides ",
         price: 112,
         strikedoffprice: 204,
@@ -141,7 +141,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/38063312420648122/R/w1020_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/38063312420648122/F/w720_q80.jpg",
-        brand: "FRAME",
+        title: "FRAME",
         description: "Cotton shorts",
         price: 253,
         strikedoffprice: 128,
@@ -150,7 +150,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/38063312420640139/F/w340_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/38063312420640139/R/w1020_q80.jpg",
-        brand: "FRAME",
+        title: "FRAME",
         description: "Le Catroux high-rise skinny jeans ",
         price: 145,
         strikedoffprice: 323,
@@ -159,7 +159,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/38063312419046609/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/38063312419046609/R/w1020_q80.jpg",
-        brand: "FRAME",
+        title: "FRAME",
         description: "Le Original cropped distressed boyfriend jeans",
         price: 170,
         strikedoffprice: 341,
@@ -168,7 +168,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/42247633208683821/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/42247633208683821/R/w1020_q80.jpg",
-        brand: "FRAME",
+        title: "FRAME",
         description: "Twill shirt ",
         price: 174,
         strikedoffprice: 386,
@@ -177,7 +177,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/42247633208679555/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/42247633208679555/R/w1020_q80.jpg",
-        brand: "FRAME",
+        title: "FRAME",
         description: "Cropped belted twill jumpsuit",
         price: 308,
         strikedoffprice: 683,
@@ -186,7 +186,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597277948326/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597277948326/R/w1020_q80.jpg",
-        brand: "KORAL",
+        title: "KORAL",
         description: "Playoff textured stretch-jacquard leggings ",
         price: 78,
         strikedoffprice: 155,
@@ -195,7 +195,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597277970441/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597277970441/R/w1020_q80.jpg",
-        brand: "KORAL",
+        title: "KORAL",
         description: "Stretch-jacquard leggings ",
         price: 88,
         strikedoffprice: 176,
@@ -204,7 +204,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597277962609/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597277962609/R/w1020_q80.jpg",
-        brand: "KORAL",
+        title: "KORAL",
         description: "Aura cutout Tencel-jersey tank ",
         price: 64,
         strikedoffprice: 126,
@@ -213,7 +213,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597277894435/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597277894435/R/w1020_q80.jpg",
-        brand: "KORAL",
+        title: "KORAL",
         description: "Aden cropped stretch leggings ",
         price: 70,
         strikedoffprice: 141,
@@ -222,7 +222,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597277900655/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597277900655/R/w1020_q80.jpg",
-        brand: "KORAL",
+        title: "KORAL",
         description: "Tencel-jersey tank ",
         price: 58,
         strikedoffprice: 97,
@@ -231,7 +231,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597278216376/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597278216376/R/w1020_q80.jpg",
-        brand: "HELMUT LANG",
+        title: "HELMUT LANG",
         description: "Asymmetric ribbed jersey camisole",
         price: 104,
         strikedoffprice: 174,
@@ -240,7 +240,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597282713379/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597282713379/R/w1020_q80.jpg",
-        brand: "HELMUT LANG",
+        title: "HELMUT LANG",
         description: "Pleated leather-trimmed cady mini dress ",
         price: 180,
         strikedoffprice: 329,
@@ -249,7 +249,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/43769801097565651/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/43769801097565651/R/w1020_q80.jpg",
-        brand: "HELMUT LANG",
+        title: "HELMUT LANG",
         description: "Mélange ribbed wool and cashmere-blend playsuit ",
         price: 148,
         strikedoffprice: 317,
@@ -258,7 +258,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597278194443/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597278194443/R/w1020_q80.jpg",
-        brand: "HELMUT LANG",
+        title: "HELMUT LANG",
         description: "Twisted wool-blend sweater ",
         price: 190,
         strikedoffprice: 383,
@@ -267,7 +267,7 @@ var data = [
     {
         img_1: "https://www.theoutnet.com/variants/images/1647597282724258/F/w720_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/1647597282724258/R/w1020_q80.jpg",
-        brand: "HELMUT LANG",
+        title: "HELMUT LANG",
         description: "Printed cotton-jersey T-shirt",
         price: 57,
         strikedoffprice: 114,
@@ -276,7 +276,9 @@ var data = [
 
 ];
 
-localStorage.setItem("data1", JSON.stringify(data));
+// localStorage.setItem("data1", JSON.stringify(data));
+
+let productList =  [];
 
 var womenData = JSON.parse(localStorage.getItem("data1")) || []
 
@@ -293,7 +295,7 @@ function displayDataWomen(womenData) {
         image.src=elem.img_1
         image.addEventListener("click", function () {
             moreInfo(elem);
-            window.location.href = "#";
+            window.location.href = "product.html";
         })
 
         image.addEventListener("mouseenter",function(){
@@ -305,9 +307,9 @@ function displayDataWomen(womenData) {
         })
 
 
-        var brand = document.createElement("h3")
-        brand.innerText = elem.brand
-        brand.style.fontWeight = "bold"
+        var title = document.createElement("h3")
+        title.innerText = elem.title
+        title.style.fontWeight = "bold"
 
         var description = document.createElement("p")
         description.innerText = elem.description
@@ -327,12 +329,20 @@ function displayDataWomen(womenData) {
 
 
         div1.append(price, strikedoffprice, discount)
-        div2.append(brand, description, div1)
+        div2.append(title, description, div1)
         maindiv.append(image, div2)
         document.querySelector("#products").append(maindiv)
     })
 }
 displayDataWomen(womenData)
+
+let moreInfo = (el) => {
+    console.log(el);
+    productList.push(el);
+    localStorage.setItem("Product", JSON.stringify(productList))
+};  
+
+
 
 // *************sort*************
 
@@ -354,14 +364,14 @@ function sorting() {
 }
 
 
-//------------brand-filter-start----------//
+//------------title-filter-start----------//
 
 function alice() {
     var value = document.querySelector("#alice").checked;
     console.log(value);
     if (value == true) {
         var alice_item = womenData.filter(function (elem, index) {
-            return elem.brand == "ALICE + OLIVIA";
+            return elem.title == "ALICE + OLIVIA";
         });
         displayDataWomen(alice_item);
     } else {
@@ -374,7 +384,7 @@ function balmain() {
     console.log(value)
     if (value == true) {
         var balmain_item = womenData.filter(function (elem, index) {
-            return elem.brand == "BALMAIN";
+            return elem.title == "BALMAIN";
         });
         displayDataWomen(balmain_item);
     } else {
@@ -387,7 +397,7 @@ function helmut() {
     console.log(value);
     if (value == true) {
         var helmut_item = womenData.filter(function (elem, index) {
-            return elem.brand == "HELMUT LANG";
+            return elem.title == "HELMUT LANG";
         });
         displayDataWomen(helmut_item);
     } else {
@@ -400,7 +410,7 @@ function studios() {
     console.log(value);
     if (value == true) {
         var studios_item = womenData.filter(function (elem, index) {
-            return elem.brand == "STUDIOS";
+            return elem.title == "STUDIOS";
         });
         displayDataWomen(studios_item);
     } else {
@@ -413,7 +423,7 @@ function frame() {
     console.log(value);
     if (value == true) {
         var frame_item = womenData.filter(function (elem, index) {
-            return elem.brand == "FRAME";
+            return elem.title == "FRAME";
         });
         displayDataWomen(frame_item);
     } else {
@@ -426,7 +436,7 @@ function koral() {
     console.log(value);
     if (value == true) {
         var koral_item = womenData.filter(function (elem, index) {
-            return elem.brand == "KORAL";
+            return elem.title == "KORAL";
         });
         displayDataWomen(koral_item);
     } else {
