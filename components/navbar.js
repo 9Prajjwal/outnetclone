@@ -11,8 +11,10 @@ function navbar(){
            <p>Delivery</p>
            <p>Returns</p>
            </div>
+           
 
            <div id="b2">
+           
                 <h1>THE OUTNET</h1>
                 <div id="rgt">
                     <div>
@@ -27,6 +29,9 @@ function navbar(){
                     </div>
                 </div>
            </div>
+
+           
+
            <div id="b3">
            <div id="gap"></div>
             <p>Just.In</p>
@@ -54,6 +59,11 @@ function navbar(){
                </div>
            </div>
         </div>
+    </div>
+
+    <div id="menWomen">
+                <p>Women</p>
+                <p>Men</p>
     </div>
     <br><br><br><br><br><br><br><br><br>
     `

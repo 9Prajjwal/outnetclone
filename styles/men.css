@@ -54,12 +54,25 @@
 }
 
 
+#menWomen{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 6.5%;
+    font-size: 22px;
+}
+
+#menWomen>p{
+    margin:18px 20px;
+}
+
 #b2{
     width: 1825%;
     height: 200px;
     margin-top: -2%;
     margin-left: 10%;
 }
+
+
 #b2 h1{
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
