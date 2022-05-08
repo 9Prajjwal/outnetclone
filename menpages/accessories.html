@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/men.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    
     <link rel="stylesheet" href="./Styles/accessories.css"><title>Document</title>
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="main">
         <div class="header">
             <div class="text">
@@ -20,16 +28,74 @@
         <div id="container">
             <div>
                 <div id="result"></div>
-                <div></div>
+                <div id="sort">
+                    <select onchange="sorting()" id="sortby">
+                        <div id="option">
+                            <option value>Sort</option>
+                            
+                            <option value="hightolow">Price: High to low</option>
+                            <option value="lowtohigh">Price: Low to high</option>
+                          
+                        </div>
+                    </select>
+                </div>
             </div>
-            <div>
-                <div id="filters"></div>
+            <div id="parent">
+                <div id="filter">
+                    <div id="categories">
+                        <h3>FILTERS</h3>
+                      
+                    </div>
+                    <div id="brands">
+                        <div>Brands</div>
+                        <div>
+                            <label><input onchange="alice()" id="alice" type="checkbox" value="alice" />Alice</label>
+                            <label><input onchange="balmain()" id="balmain" type="checkbox" value="balmain" />Balmain</label>
+                            <label><input onchange="helmut()" id="helmut" type="checkbox" value="helmut" />Helmut Lang</label>
+                            <label> <input onchange="studios()" id="studios" type="checkbox" value="studios" />Studios</label>
+                            <label> <input onchange="frame()" id="frame" type="checkbox" value="frame" />Frame</label>
+                            <label> <input onchange="koral()" id="koral" type="checkbox" value="koral" />Koral</label>
+        
+                        </div>
+                    </div>
+                    <div id="price">
+                        <div>Price</div>
+                        <div>
+                            <label> <input onchange="$50to$100()" id="$50to$100" type="checkbox" value="$50to$100" />$50 to $100</label>
+                            <label> <input onchange="$101to$200()" id="$101to$200" type="checkbox" value="$101to$200" />$101 to $200</label>
+                            <label> <input onchange="$201to$500()" id="$201to$500" type="checkbox" value="$201to$500" />$201 to $500</label>
+                            <label> <input onchange="$501andabove()" id="$501andabove" type="checkbox" value="$501andabove" />$501 and above</label>
+        
+                        </div>
+                    </div>
+        
+                    <div id="discountrange">
+                        <div>DISCOUNT RANGE</div>
+                        <div>
+                            <label> <input onchange="above50()" id="above50" type="checkbox" value="above50" />50% and
+                                above</label>
+                            <label> <input onchange="above60()" id="above60" type="checkbox" value="above60" />60% and
+                                above</label>
+                            <label> <input onchange="above70()" id="above70" type="checkbox" value="above70" />70% and
+                                above</label>
+                        </div>
+                    </div>
+                
+                </div>
                 <div id="products"></div>
             </div>
         </div>
     </div>
     
+<div id="footer"></div>
+
+
 </body>
 </html>
 
 <script type="module" src="./scripts/accessories.js"></script>
+
+
+<script src="../scripts/men.js" type="module"></script>
+
+<script src="../footer.js" ></script>

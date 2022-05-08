@@ -23,6 +23,9 @@
     width: 280px;
 }
 
+/* products div */
+
+
 #products{
     display: grid;
     grid-template-columns: repeat(3, 30%);
@@ -43,3 +46,60 @@
     text-decoration: line-through;
    
 }
+
+/* filters and sorting */
+
+#parent {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+
+#filter {
+    /* margin-top: 20px; */
+    width: 226px;
+    height: 1500px;
+    border-left:none ;
+}
+#filter input{
+    width: 15px;
+    height: 15px;
+    margin-right: 12px;
+}
+label{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+#filter>div {
+    display: grid;
+    width: 88%;
+    padding: 20px 0px 15px 25px;
+    border-bottom: 1px solid #e9e9ed;
+    border-right:#e9e9ed solid 1px;
+
+}
+
+#filter>div>div {
+    display: grid;
+    margin-bottom: 10px;
+
+}
+
+#sort {
+    padding: 5px;
+    margin-left: 84.8%;
+    margin-bottom: -40px;
+   
+}
+
+#parentTop {
+    display: flex;
+}
+
+#parentTop #sort{
+   
+    margin-left: 40px;
+}
+
