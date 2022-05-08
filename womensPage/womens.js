@@ -290,11 +290,21 @@ function displayDataWomen(womenData) {
         var div2 = document.createElement("div")
         div2.setAttribute("id", "infoDiv")
         var image = document.createElement("img")
-        image.setAttribute("src", elem.img_2)
+        image.src=elem.img_1
         image.addEventListener("click", function () {
             moreInfo(elem);
             window.location.href = "#";
         })
+
+        image.addEventListener("mouseenter",function(){
+            image.src=elem.img_2
+        })
+
+        image.addEventListener("mouseleave",function(){
+            image.src=elem.img_1
+        })
+
+
         var brand = document.createElement("h3")
         brand.innerText = elem.brand
         brand.style.fontWeight = "bold"
