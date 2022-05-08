@@ -2,9 +2,9 @@
 function navbar(){
     return `
     <div id="box">
-       <div id="b1">
-           <a href="Sign In.html"><span><i class="fa-solid fa-user fa-large"></i></span></a>
-           <p>SignIn</p>
+        <div id="b1">
+           <a href="signup.html"><span><i class="fa-solid fa-user fa-large"></i></span></a>
+           <p id="baccha">Sign-In</p>
 
            <div id="b2">
                 <h1>THE OUTNET</h1>
@@ -22,6 +22,7 @@ function navbar(){
                 </div>
            </div>
            <div id="b3">
+           <div id="gap"></div>
             <p>Just.In</p>
             <p>Bestsellers</p>
             <p>Designers</p>
@@ -46,8 +47,10 @@ function navbar(){
                    <img src="https://www.theoutnet.com/ycm/resource/blob/1257912/a89d1fd400b76c8386958cf7cdcdfaea/mobile-icon-data.png" height="50px">                   <p id="f">Extra 20% off when you shop via our app</p>
                </div>
            </div>
-       </div>
-    </div>`
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    `
 }
 
 export {navbar}

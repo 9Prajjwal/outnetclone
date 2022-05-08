@@ -13,12 +13,21 @@
     font-size: 20px;
     background-color: rgb(242,242,242);
     color: black;
+    margin-left: 70px;
 }
 #b1 p{
     color: rgb(138, 136, 136);
     margin-left: 12%;
     margin-top: -10%;
 }
+
+#b1>#baccha{
+    margin-left:110px;
+    width:50px;
+    margin-top:-25%;
+}
+
+
 #b2{
     width: 1450px;
     height: 200px;
@@ -29,25 +38,35 @@
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#b2 img{
+    height:30px;
+}
+
+#gap{
+    margin-left: 200%;
+}
+
+
 #b3{
     display: flex;
-    margin-top: -30%;
-    margin-left: 40%;
+    margin-right: -10%;
+    margin-top: -140%;
 }
 #b3 p{
     color: black;
-    background-color: rgb(242,242,242);
-    margin-left:30%;
+    margin-left:50%;
+    font-weight: 100;
 }
 #b4{
     display: flex;
-    width: 1400px;
+    width: 1433px;
     height: 50px;
-    margin-left: 10%;
+    margin-left:50%;
     margin-top: 5%;
+    background-color: #f2f2f2;
 }
 #b4 div{
-    width: 30%;
+    width: 28%;
     height: 40px;
     margin: auto;
 }
