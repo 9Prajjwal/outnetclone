@@ -36,6 +36,7 @@ let appendData = (data) => {
     
         let title1 = document.createElement("h3");
         title1.innerText = el.title;
+        
     
         let a_p = document.createElement("p");
         a_p.innerText = el.description;

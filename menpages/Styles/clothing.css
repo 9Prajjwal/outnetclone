@@ -29,6 +29,7 @@
     display: grid;
     grid-template-columns: repeat(3, 30%);
     gap: 5%;
+    margin-bottom: 40rem;
 }
 
 .product img{
@@ -38,10 +39,15 @@
 
 .product{
     text-align: center;
-    line-height: 2%;
+    line-height: 3%;
 }
 
 .strikep {
     text-decoration: line-through;
    
+}
+
+#container {
+    margin-bottom: auto;
+
 }
