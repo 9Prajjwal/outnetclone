@@ -463,10 +463,18 @@ let review = () => {
         totalprice.innerText = `$${50 + 158 + 25}`;
         line4_right.append(totalprice);
 
+        let line5 = document.createElement("div");
+        line5.setAttribute("class","save");
+
+        let saved = document.createElement("p");
+        saved.setAttribute("class","saved");
+        saved.innerText = `You're saving $${50}`;
+
         line1.append(line1_left, line1_right);
         line2.append(line2_left, line2_right);
         line3.append(line3_left, line3_right);
         line4.append(line4_left, line4_right);
+        line5.append(saved);
 
         let notediv = document.createElement("div");
         notediv.setAttribute("class", "notediv");
@@ -485,7 +493,7 @@ let review = () => {
             window.location.href = "paymentspage.html";
         });
 
-        reviewbox.append(rhead, line1, line2, line3, line4, notediv, btn);
+        reviewbox.append(rhead, line1, line2, line3, line4, line5, notediv, btn);
 
         helper("billing-box").append(reviewbox);
     };
