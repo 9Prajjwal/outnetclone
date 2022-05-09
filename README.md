@@ -15,18 +15,18 @@ Netlify link:- https://theoutne-e7f2b5.netlify.app/
 6.	Mr. Piyush Narkhede.
 
 ## Pages and Features:
-Landing Page: It contains two sections (men and women) with different categories beneath it.
-Home Page: It contains Navigation bar with different categories and search tab where customer can search for the required product. Also footer which provides some information about the company and links to social media handles. Also it shows images of some latest products.
-Just in: It shows latest products such as shirts, trousers, bags etc. Also it has sorting and filter options.
-Best Seller: This page has the products which are sold most number of times. 
-Clothing: This page shows products such as clothes such as shirts, Trousers, Jeans, t-shirts etc.
-Shoes: This page contains footwear options such as shoes, flip-flops, sandals, sleepers, boots, etc.
-Accessories: This page has products such as ties, caps, bags, bracelets etc.
-Product: On clicking any of the product it will redirect to the products page which shows detail information of the product along with buttons such as add to bag and add to wish list.
-Wish list: This page shows the products which customer add to the wish list from product page. From here we can add product into bag or customer can also remove it from the wish list.
-Cart: On cart page customer can see the order summary and also customer can increase and decrease the quantity of the product. Also there is promo code section where customer can apply promo code and avail discount. 
-Checkout: Here customer have to provide address details and select payment option. And after that he/she can review and place the order. 
-Payment: Here customer has to enter the OTP which he/she receives on mobile in a minute. And after that he will get the confirmation message of placed order. 
+###### Landing Page: It contains two sections (men and women) with different categories beneath it.
+###### Home Page: It contains Navigation bar with different categories and search tab where customer can search for the required product. Also footer which provides some information about the company and links to social media handles. Also it shows images of some latest products.
+###### Just in: It shows latest products such as shirts, trousers, bags etc. Also it has sorting and filter options.
+###### Best Seller: This page has the products which are sold most number of times. 
+###### Clothing: This page shows products such as clothes such as shirts, Trousers, Jeans, t-shirts etc.
+###### Shoes: This page contains footwear options such as shoes, flip-flops, sandals, sleepers, boots, etc.
+###### Accessories: This page has products such as ties, caps, bags, bracelets etc.
+###### Product: On clicking any of the product it will redirect to the products page which shows detail information of the product along with buttons such as add to bag and add to wish list.
+###### Wish list: This page shows the products which customer add to the wish list from product page. From here we can add product into bag or customer can also remove it from the wish list.
+###### Cart: On cart page customer can see the order summary and also customer can increase and decrease the quantity of the product. Also there is promo code section where customer can apply promo code and avail discount. 
+###### Checkout: Here customer have to provide address details and select payment option. And after that he/she can review and place the order. 
+###### Payment: Here customer has to enter the OTP which he/she receives on mobile in a minute. And after that he will get the confirmation message of placed order. 
 
 ## Tech Stack:
 1.	HTML
