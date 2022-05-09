@@ -161,7 +161,7 @@ let login = async () => {
     });
 
     let data=await res.json();
-    console.log("hello",data)
+    // console.log("hello",data)
 
     if(data.error==true){
         alert(`${data.message}`);
@@ -188,6 +188,8 @@ let getUserdetails = async (username,token) => {
 
     if(data.username==document.querySelector("#Email").value){
         alert("Login successful");
+        document.querySelector("#Email").value=null;
+        window.location.href="women_home.html"
     }
 
 }
