@@ -25,6 +25,9 @@ let append = (data,SEARCH) =>{
         h3.setAttribute("class","h3")
         let img = document.createElement("img");
         img.setAttribute("class","image")
+        img.addEventListener("click",()=>{
+            window.location.href="clothing.html"
+        })
 
         h3.innerText = alt_description;
         img.src = small;
