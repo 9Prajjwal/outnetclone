@@ -8,7 +8,7 @@ let productList =  [];
 
 
 let appendData = (data) => {
-
+    document.getElementById("products").innerHTML=null;
     let product = document.getElementById("products");
    
     data.forEach((el) => {
@@ -85,7 +85,7 @@ let addToProductlist = (el) => {
 };    
 
 // ********SORT********
-document.getElementById('sortby').addEventListener('change', sorting);
+
 
 let sorting = () => {
     let prices = document.querySelector("#sortby").value;
@@ -93,7 +93,9 @@ let sorting = () => {
     if (prices == "hightolow") {
         data.sort(function (a, b) {
             return b.price - a.price;
+            
         });
+ console.log(data);
         appendData(data)
     }
     if (prices == "lowtohigh") {
@@ -104,6 +106,7 @@ let sorting = () => {
     }
 }
 
+document.getElementById('sortby').addEventListener('change', sorting);
 
 //------------title-filter-start----------//
 
