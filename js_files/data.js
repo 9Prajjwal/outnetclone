@@ -36,14 +36,14 @@ let data = [{
         c1: "Bestseller",
     },
     {
-        img_1: "https://www.theoutnet.com/variants/images/46376663162747736/F/w520_q80.jpg",
-        img_2: "https://www.theoutnet.com/variants/images/46376663162747736/D/w1020_q80.jpgps://www.theoutnet.com/variants/images/43769801098419047/R/w1020_q80.jpg",
+        img_1: "https://www.theoutnet.com/variants/images/1647597282774154/F/w720_q80.jpg",
+        img_2: "https://www.theoutnet.com/variants/images/1647597282774154/E/w1020_q80.jpg",
         title: "RAG & BONE",
         description: "Addison shell  baseball cap",
         price: 45,
         strikedoffprice: 102,
         discount: 55,
-        color: "White",
+        color: "Black",
         category: "Accessories",
     },
 

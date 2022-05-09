@@ -110,10 +110,10 @@ document.getElementById('sortby').addEventListener('change', sorting);
 
 //------------title-filter-start----------//
 
-function peserico() {
+function peserico()  {
     let value = document.querySelector("#peserico").checked;
     console.log(value);
-    if (value =="PESERICO") {
+    if (value == true) {
         let peserico_item = data.filter(function (elem, index) {
             return elem.title == "PESERICO";
         });
@@ -122,6 +122,9 @@ function peserico() {
         appendData(data);
     }
 }
+
+document.getElementById('peserico').addEventListener('change', peserico);
+
 
 function dolce() {
     var value = document.querySelector("#dolce").checked;
@@ -136,6 +139,8 @@ function dolce() {
     }
 }
 
+document.getElementById('dolce').addEventListener('change', dolce);
+
 function valentino() {
     var value = document.querySelector("#valentino").checked;
     console.log(value);
@@ -148,6 +153,8 @@ function valentino() {
         appendData(data);
     }
 }
+
+document.getElementById('valentino').addEventListener('change', valentino);
 
 function rag() {
     var value = document.querySelector("#rag").checked;
@@ -162,6 +169,8 @@ function rag() {
     }
 }
 
+document.getElementById('rag').addEventListener('change', rag);
+
 function iro() {
     let value = document.querySelector("#iro").checked;
     console.log(value);
@@ -175,11 +184,13 @@ function iro() {
     }
 }
 
+document.getElementById('iro').addEventListener('change', iro);
+
 function sandro() {
     var value = document.querySelector("#sandro").checked;
     console.log(value);
     if (value == true) {
-        var sandro_item = womenData.filter(function (elem, index) {
+        var sandro_item = data.filter(function (elem, index) {
             return elem.title == "SANDRO";
         });
         appendData(sandro_item);
@@ -188,68 +199,78 @@ function sandro() {
     }
 }
 
+document.getElementById('sandro').addEventListener('change',sandro);
+
          // price filter
 
-         document.getElementById('50to100').addEventListener('change', $50to$100);
+        
 
          function $50to$100() {
-            let $ = document.querySelector("#50to100").checked;
+            let $ = document.querySelector("#fifty").checked;
             if ($ == true) {
-                let $50to$100 = womenData.filter(function (elem) {
+                let $50to$100 = data.filter(function (elem) {
                     if (elem.price > 50  && elem.price <= 100) {
                         return elem.price;
                         
                     }
-                    console.log($50to$100);
+                    
                 });
                 appendData($50to$100);
     } else {
         appendData(data);
     }
         }
-        
+
+        document.getElementById('fifty').addEventListener('change', $50to$100);
         
         function $101to$200() {
-            var Rs = document.querySelector("#Rs1199toRs2098").checked;
+            var Rs = document.querySelector("#hundred").checked;
             if (Rs == true) {
-                var Rs1199toRs2098 = womenData.filter(function (elem) {
-                    if (elem.price > 1199 && elem.price <= 2098) {
+                var Rs1199toRs2098 = data.filter(function (elem) {
+                    if (elem.price > 100 && elem.price <= 200) {
                         return elem.price;
                     }
                 });
-                displayDataWomen(Rs1199toRs2098);
+               appendData(Rs1199toRs2098);
             } else {
-                displayDataWomen(womenData)
+               appendData(data)
             }
         }
+
+        document.getElementById('hundred').addEventListener('change',$101to$200);
         
-        function Rs2098toRs3119() {
-            var Rs = document.querySelector("#Rs2098toRs3119").checked;
-            if (Rs == true) {
-                var Rs2098toRs3119 = womenData.filter(function (elem) {
-                    if (elem.price > 2098 && elem.price <= 3119) {
-                        return elem.price;
-                    }
-                });
-                displayDataWomen(Rs2098toRs3119);
-            } else {
-                displayDataWomen(womenData)
-            }
-        }
         
-        function Rs3119toRsabove() {
-            var Rs = document.querySelector("#Rs3119toRsabove").checked;
+        function $201to$500() {
+            var Rs = document.querySelector("#twohundred").checked;
             if (Rs == true) {
-                var Rs3119toRsabove = womenData.filter(function (elem) {
-                    if (elem.price > 3119) {
+                var Rs2098toRs3119 = data.filter(function (elem) {
+                    if (elem.price > 200 && elem.price <= 500) {
                         return elem.price;
                     }
                 });
-                displayDataWomen(Rs3119toRsabove);
+                appendData(Rs2098toRs3119);
             } else {
-                displayDataWomen(womenData)
+               appendData(data)
             }
         }
+
+        document.getElementById('twohundred').addEventListener('change',$201to$500);
+        
+        function $501andabove() {
+            var Rs = document.querySelector("#fivehundred").checked;
+            if (Rs == true) {
+                var Rs3119toRsabove = data.filter(function (elem) {
+                    if (elem.price > 500) {
+                        return elem.price;
+                    }
+                });
+                appendData(Rs3119toRsabove);
+            } else {
+                appendData(data)
+            }
+        }
+
+        document.getElementById('fivehundred').addEventListener('change',$501andabove);
         
         //----------price-filter-end--------------//
         
@@ -260,42 +281,48 @@ function sandro() {
         function above50() {
             var above50 = document.querySelector("#above50").checked;
             if (above50 == true) {
-                var above50 = womenData.filter(function (elem) {
+                var above50 = data.filter(function (elem) {
                     if (elem.discount >= 50) {
                         return elem.discount;
                     }
                 });
-                displayDataWomen(above50);
+                appendData(above50);
             } else {
-                displayDataWomen(womenData)
+                appendData(data)
             }
         }
+
+        document.getElementById('above50').addEventListener('change',above50);
         
         function above60() {
             var above60 = document.querySelector("#above60").checked;
             if (above60 == true) {
-                var above60 = womenData.filter(function (elem) {
+                var above60 = data.filter(function (elem) {
                     if (elem.discount >= 60) {
                         return elem.discount;
                     }
                 });
-                displayDataWomen(above60);
+                appendData(above60);
             } else {
-                displayDataWomen(womenData)
+                appendData(data)
             }
         }
+
+        document.getElementById('above60').addEventListener('change',above60);
         
         function above70() {
             var above70 = document.querySelector("#above70").checked;
             if (above70 == true) {
-                var above70 = womenData.filter(function (elem) {
+                var above70 = data.filter(function (elem) {
                     if (elem.discount >= 70) {
                         return elem.discount;
                     }
                 });
-                displayDataWomen(above70);
+                appendData(above70);
             } else {
-                displayDataWomen(womenData)
+                appendData(data)
             }
         }
+
+        document.getElementById('above70').addEventListener('change',above70);
         
