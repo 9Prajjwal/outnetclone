@@ -13,10 +13,20 @@ let appendData = (data) => {
         
     
     let box = document.getElementById("details");
+    console.log(el.title,el.brand)
 
-
+    
     let title1 = document.createElement("h3");
+    if(el.title == undefined){
+       
+    
+    title1.innerText = el.brand;
+    }
+    else if(el.brand == undefined){
+        
+    
     title1.innerText = el.title;
+    }
 
     let a_p = document.createElement("p");
     a_p.innerText = el.description;
