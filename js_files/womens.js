@@ -1,6 +1,6 @@
 
 
-var data = [
+var womenData = [
     {
         img_1: "https://www.theoutnet.com/variants/images/46376663162746980/F/w1020_q80.jpg",
         img_2: "https://www.theoutnet.com/variants/images/46376663162746980/R/w1020_q80.jpg",
@@ -311,9 +311,10 @@ var data = [
 
 let productList =  [];
 
-let womenData = JSON.parse(localStorage.getItem("data1")) || []
 
 function displayDataWomen(womenData) {
+    
+
     document.querySelector("#products").innerHTML = ""
     womenData.map(function (elem) {
         let maindiv = document.createElement("div")
