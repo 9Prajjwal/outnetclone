@@ -3,6 +3,7 @@ let total_price= 0;
 
 let cartData= JSON.parse(localStorage.getItem("cart"));
 document.getElementById("count1_anurag").innerText= cartData.length +" "+"Items";
+localStorage.setItem("items",JSON.stringify(cartData.length));
 
 function displayCart(){
     let total_price= 0;
@@ -47,7 +48,8 @@ function displayCart(){
         discount.innerText= el.discount;
         count.innerText= 1;
         minus.innerText= "-";
-        //-------------------------
+        //------------------------
+
         minus.addEventListener("click", function(el){
             if(Number(count.innerText) > 1){
                 count.innerText --;
@@ -55,6 +57,7 @@ function displayCart(){
                 total_price = total_price- Number(pric.innerText);
                 console.log(total_price);
                 document.getElementById("sub_total_anurag").innerText= total_price;
+                localStorage.setItem("subtotal",JSON.stringify(total_price));
                 document.getElementById("final").innerText=  (total_price +(30+ 0.18*total_price)).toFixed(2);
                 let arr= [];
                 let last= (total_price +(30+ 0.18*total_price)).toFixed(2);
@@ -76,6 +79,7 @@ function displayCart(){
                 count.innerText ++;
                 document.getElementById("count_anurag").innerText= count.innerText;
                 total_price += Number(pric.innerText);
+                localStorage.setItem("subtotal",JSON.stringify(total_price));
                 console.log(total_price);
                 document.getElementById("sub_total_anurag").innerText= total_price;
                 document.getElementById("final").innerText= (total_price +(30+ 0.18*total_price)).toFixed(2);

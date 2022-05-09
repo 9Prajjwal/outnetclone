@@ -2,6 +2,16 @@ let helper = (id) => {
     return document.getElementById(id);
 }
 
+let amount = JSON.parse(localStorage.getItem("amount"));
+let taxc = JSON.parse(localStorage.getItem("tax"));
+helper("a-cost").innerText = `(${Number(amount[0]).toFixed(2)})`;
+
+let item = JSON.parse(localStorage.getItem("items"));
+helper("items").innerText = `(${item})`
+
+helper("review").addEventListener("click",() => {
+    window.location.href = "cart.html";
+})
 
 import { addressdetails, addcontbutton, optiondetails, contsubmit, card, carddetails, billbook } from "../js_files/addressdetails.js";
 
@@ -275,7 +285,7 @@ let selectoption = () => {
     optpackage.setAttribute("class", "package");
 
     let express = document.createElement("p");
-    express.innerText = "Express - $25"
+    express.innerText = "Express - $30"
 
     let delitime = document.createElement("p");
     delitime.innerText = "Delivery between 9am-5pm, Monday to Friday";
@@ -403,7 +413,8 @@ let review = () => {
 
         let subtotprice = document.createElement("p");
         subtotprice.setAttribute("class", "subtotprice");
-        subtotprice.innerText = `$${158}`;
+        let subtotalp = JSON.parse(localStorage.getItem("subtotal"));
+        subtotprice.innerText = `$${Number(subtotalp)}`;
         line1_right.append(subtotprice);
 
         let line2 = document.createElement("div");
@@ -422,7 +433,7 @@ let review = () => {
 
         let shipprice = document.createElement("p");
         shipprice.setAttribute("class", "shipprice");
-        shipprice.innerText = `$${25}`;
+        shipprice.innerText = `$${30}`;
         line2_right.append(shipprice);
 
         let line3 = document.createElement("div");
@@ -441,7 +452,8 @@ let review = () => {
 
         let taxprice = document.createElement("p");
         taxprice.setAttribute("class", "taxprice");
-        taxprice.innerText = `$${50}`;
+        let taxc = JSON.parse(localStorage.getItem("tax"));
+        taxprice.innerText = `$${Number(taxc[0])}`;
         line3_right.append(taxprice);
 
         let line4 = document.createElement("div");
@@ -460,7 +472,7 @@ let review = () => {
 
         let totalprice = document.createElement("p");
         totalprice.setAttribute("class", "totalprice");
-        totalprice.innerText = `$${50 + 158 + 25}`;
+        totalprice.innerText = `$${(Number(amount[0])).toFixed(2)}`;
         line4_right.append(totalprice);
 
         let line5 = document.createElement("div");
@@ -468,7 +480,7 @@ let review = () => {
 
         let saved = document.createElement("p");
         saved.setAttribute("class","saved");
-        saved.innerText = `You're saving $${50}`;
+        saved.innerText = `You're saving ${0}$`;
 
         line1.append(line1_left, line1_right);
         line2.append(line2_left, line2_right);
