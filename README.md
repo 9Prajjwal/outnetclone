@@ -34,21 +34,21 @@ Netlify link:- https://theoutne-e7f2b5.netlify.app/
 3.	JavaScript - ES6, local Storage, DE-bouncing, Fetch API, Import / Export, 
                     Set Interval / Set Timeout.
 ## Roles and Responsibilities:
-• GitHub is managed by Mr. Prajjwal Pal and REDME.md done by Mr. Aifanul Islam and Mr. Piyush Narkhede.
-• The signup and sign in pages are designed and its functionality done by Mr. Jyoti Kamal Singh.
-• The Landing page, navigation bar, Footer and product page is designed and its functionality is done by Mr. Aifanul Islam.
-• Men’s home Page, Women’s home Page, Wish List and cart page is build and its functionality is done by Mr. Anurag Pawar.
-• Women’s page and functionality such as sort and filter is done by Mr. Sumit Bokshi. 
-• The Men’s Page and pages for categories such as Justin, Clothing’s, Accessories, shoes, and best seller are designed and its functionality is done by Mr. Prajjwal  	Pal.
-• Checkout and Payments Page is build and its functionality is done by Mr. Piyush Narkhede.
-• Code optimization and debugging done by Mr. Jyoti Kamal Singh.
+###### • GitHub is managed by Mr. Prajjwal Pal and REDME.md done by Mr. Aifanul Islam and Mr. Piyush Narkhede.
+###### • The signup and sign in pages are designed and its functionality done by Mr. Jyoti Kamal Singh.
+###### • The Landing page, navigation bar, Footer and product page is designed and its functionality is done by Mr. Aifanul Islam.
+###### • Men’s home Page, Women’s home Page, Wish List and cart page is build and its functionality is done by Mr. Anurag Pawar.
+###### • Women’s page and functionality such as sort and filter is done by Mr. Sumit Bokshi. 
+###### • The Men’s Page and pages for categories such as Justin, Clothing’s, Accessories, shoes, and best seller are designed and its functionality is done by Mr. Prajjwal  	Pal.
+###### • Checkout and Payments Page is build and its functionality is done by Mr. Piyush Narkhede.
+###### • Code optimization and debugging done by Mr. Jyoti Kamal Singh.
 
 ## Learning: 
-• We all became proficient in reading the code of team members.
-• Our code writing style became cleaner as we had to think while writing code that other team members will be reading. 
-• And also we all learnt to optimise the code with the help of import / Export. We get proficient in using ES6. 
-• Also we learned about how to conduct meetings efficiently and most importantly how to manage time and we are able to motivate every team member to make him participate actively. 
-• All the above learning outcome takes us to the result and eventually we complete our task within a week.
+###### • We all became proficient in reading the code of team members.
+###### • Our code writing style became cleaner as we had to think while writing code that other team members will be reading. 
+###### • And also we all learnt to optimise the code with the help of import / Export. We get proficient in using ES6. 
+###### • Also we learned about how to conduct meetings efficiently and most importantly how to manage time and we are able to motivate every team member to make him participate actively. 
+###### • All the above learning outcome takes us to the result and eventually we complete our task within a week.
 
 ## Feedback:
 If you want to suggest us anything or want to give us feedback then please connect us at boby150499@gmail.com, aifanislam50@gmail.com, piyushnarkhede02@gmail.com, anuragpawar.me@gmail.com, palprajjwal143@gmail.com, bokshisumit@gmail.com
