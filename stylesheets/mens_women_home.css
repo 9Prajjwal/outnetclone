@@ -56,6 +56,7 @@ body img,p,h1,h2,h3,h4,h5,h6:hover{
 }
 #box_b11 > a{
     cursor: pointer;
+    color: black;
 }
 #box_b11 > h1{
     font-size:xx-large;

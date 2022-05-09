@@ -54,11 +54,12 @@ body{
 
 #a-cost{
     margin-top: -5%;
-    margin-left: 9%;
+    margin-left: 7%;
 }
 
 #review{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #shipping-address{
