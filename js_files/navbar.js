@@ -3,7 +3,7 @@ function navbar(){
     <div id="upper">
     <div id="SIGNUP_SIGNIN">
         <span><i class="fa-solid fa-user fa-large"></i></span>
-        <p>Sign-in</p>
+        <p id="userName">Sign-in</p>
     </div>
     <div>
         <p>Your Order</p>

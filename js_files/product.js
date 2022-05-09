@@ -91,6 +91,10 @@ let appendData = (data) => {
     atw.addEventListener("click", function() {
         addToWishlist(el)
         atw.innerText = "ADDED TO Wishlist"
+        setTimeout(()=>{
+          window.location.href="signup.html"
+        },1500)
+        
     })
 
    box.append(title1,a_p,price1,strprice,offer,radiosize,color,atb,atw)
