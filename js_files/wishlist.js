@@ -37,7 +37,18 @@ function displayList(){
 
         image.src= el.img_1;
         image.id="image_wish"
-        name.innerText= el.title;
+        
+        if(el.title==undefined){
+            name.innerText= el.brand;
+        }
+
+        else if(el.brand==undefined){
+            name.innerText=el.title;
+        }
+
+
+
+
         des.innerText= el.description;
         pric.innerText= "$"+el.price;
         stkprice.innerText= "$"+el.strikedoffprice;

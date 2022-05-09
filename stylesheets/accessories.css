@@ -26,21 +26,24 @@
 }
 
 #products{
+    margin-left:6%;
+    width:60%;
     display: grid;
-    grid-template-columns: repeat(3, 50%);
-   
-    gap: 5%;
+    grid-template-columns: repeat(3, 30%);
+    gap: 6% 15% ;  
 }
 
 .product img{
     width: 195px;
-    height: 294px;
+    /* height: 294px; */
+}
+#filter+#products>.product{
+    height:200px;
 }
 
 .product{
     text-align: center;
-    line-height: 2%;
-
+    /* line-height: 2%; */
 }
 
 .strikep {

@@ -36,7 +36,7 @@ function navbar(){
     <a href="clothing.html">Clothing</a>
     <a href="shoes.html">Shoes</a>
     <a href="justin.html">Bags</a>
-    <a href="accessories.html">Accessories</a>
+    <a href="#">Accessories</a>
     <a href="clothing.html">Sports</a>
     <a href="womens.html">Wardrobe</a>
     <a href="bestsellers.html">70% Off</a>
@@ -63,3 +63,4 @@ document.querySelector("#navbar").innerHTML=navbar();
 document.querySelector("#SIGNUP_SIGNIN").addEventListener("click",()=>{
     window.location.href="signup.html"
 })
+
