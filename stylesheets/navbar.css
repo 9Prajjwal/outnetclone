@@ -62,20 +62,24 @@ a{
     justify-content: space-around;
 }
 #silverlining{
-    width:92%;
-    margin:auto;
+    width:94.8%;
+    margin-left:3.1%;
     border:0.5px solid rgb(208, 206, 206);
 }
 #bottomNav{
     display: flex;
     justify-content: space-around;
     background-color: #f2f2f2;
-    width:92%;
-    margin:auto;
+    width:95%;
+    margin-left:3.1%;
     margin-top: 5px;
     /* margin-bottom: 30px; */
 }
 #bottomNav>div{
     display: flex;
     align-items: center;
+}
+
+#SIGNUP_SIGNIN :hover{
+    cursor: pointer;
 }

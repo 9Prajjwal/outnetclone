@@ -1,7 +1,7 @@
 function navbar(){
     return `
     <div id="upper">
-    <div>
+    <div id="SIGNUP_SIGNIN">
         <span><i class="fa-solid fa-user fa-large"></i></span>
         <p>Sign-in</p>
     </div>
@@ -59,3 +59,7 @@ function navbar(){
 }
 
 document.querySelector("#navbar").innerHTML=navbar();
+
+document.querySelector("#SIGNUP_SIGNIN").addEventListener("click",()=>{
+    window.location.href="signup.html"
+})
