@@ -43,7 +43,7 @@ function displayList(){
         stkprice.innerText= "$"+el.strikedoffprice;
         stkprice.id= "stkprice";
         discount.innerText= el.discount;
-        addtoBag.innerText= "Add to Cart";
+        addtoBag.innerText= "Add to Bag";
         box_dis.append(stkprice, discount)
         imagDiv.append(image)
         box_down.append(imagDiv, name, des, pric, box_dis);
