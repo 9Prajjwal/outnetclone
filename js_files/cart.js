@@ -21,7 +21,7 @@ function displayCart(){
         let box22= document.createElement("div");
         box22.id= "box22_anurag";
         let image= document.createElement("img");
-        let name= document.createElement("h3");
+        
         let des= document.createElement("p");
         let pric= document.createElement("p");
         let dollar= document.createElement("p");
@@ -36,10 +36,21 @@ function displayCart(){
         let remove= document.createElement("button");
         let addwish= document.createElement("button");
         addwish.id="button_pune";
+        let name= document.createElement("h3");
+
+        if(el.title==undefined){
+            name.innerText= el.brand;
+        }
+
+        else if(el.brand==undefined){
+            name.innerText=el.title;
+        }
+
+
 
         image.src= el.img_1;
         box1.append(image);
-        name.innerText= el.title;
+        
         des.innerText= el.description;
         pric.innerText= el.price;
         dollar.innerText= "$"
@@ -161,6 +172,7 @@ function promocode(){
                 arr1.push((last1).toFixed(2));
                 localStorage.setItem("tax", JSON.stringify(arr1))
         document.getElementById("saving").innerText= `You are saving $ ${f.toFixed(2)}`;
+        localStorage.setItem("savings",JSON.stringify(f.toFixed(2)))
     }
     else{
         alert("Invalid Promocode")

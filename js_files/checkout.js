@@ -480,7 +480,8 @@ let review = () => {
 
         let saved = document.createElement("p");
         saved.setAttribute("class","saved");
-        saved.innerText = `You're saving ${0}$`;
+        let savings=JSON.parse(localStorage.getItem("savings"))
+        saved.innerText = `You're saving ${savings}$`;
 
         line1.append(line1_left, line1_right);
         line2.append(line2_left, line2_right);
