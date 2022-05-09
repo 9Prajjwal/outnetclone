@@ -29,10 +29,12 @@
 
 
 #products{
+    margin-left:6%;
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    gap: 5%;
+    gap: 6% 15% ;  
 }
+
 .product img{
     width: 195px;
     height: 294px;
