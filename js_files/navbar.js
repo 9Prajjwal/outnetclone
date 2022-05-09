@@ -30,17 +30,17 @@ function navbar(){
 </div>
 
 <div id="lowerNav">
-    <a href="justin.html">Just.In</a>
+    <a href="womens.html">Just.In</a>
     <a href="bestsellers.html">Bestsellers</a>
-    <a href="bestsellers.html">Designers</a>
+    <a href="justin.html">Designers</a>
     <a href="clothing.html">Clothing</a>
     <a href="shoes.html">Shoes</a>
     <a href="justin.html">Bags</a>
     <a href="accessories.html">Accessories</a>
     <a href="clothing.html">Sports</a>
-    <a href="justin.html">Wardrobe</a>
+    <a href="womens.html">Wardrobe</a>
     <a href="bestsellers.html">70% Off</a>
-    <a href="shoes.html">Editorials</a>
+    <a href="womens.html">Editorials</a>
 </div>
 <hr id="silverlining">
 

@@ -42,8 +42,30 @@ let appendData = (data) => {
     let offer = document.createElement("a")
     offer.innerHTML= ` ${el.discount}% off`;
 
+
+    let radiosize=document.createElement("div");
+    radiosize.innerHTML=`<label class="container">S
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">M
+    <input type="radio" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">L
+    <input type="radio" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">XL
+    <input type="radio" name="radio">
+    <span class="checkmark"></span>
+  </label>`
+  radiosize.style.margin="34px"
+
+
     let color = document.createElement("p")
     color.innerHTML=`Color: ${el.color}`;
+    color.style.marginBottom="30px"
 
     let atb = document.createElement("div")
     atb.setAttribute("class", "addToBag")
@@ -71,7 +93,7 @@ let appendData = (data) => {
         atw.innerText = "ADDED TO Wishlist"
     })
 
-   box.append(title1,a_p,price1,strprice,offer,color,atb,atw)
+   box.append(title1,a_p,price1,strprice,offer,radiosize,color,atb,atw)
     });
 };
 
