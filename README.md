@@ -33,6 +33,8 @@ Netlify link:- https://theoutne-e7f2b5.netlify.app/
 2.	CSS
 3.	JavaScript - ES6, local Storage, DE-bouncing, Fetch API, Import / Export, 
                     Set Interval / Set Timeout.
+4.	API - for signIn and signUp functionality we used https://github.com/masai-school/api-mocker/wiki/Authentication-API
+	      for search functionality we used
 ## Roles and Responsibilities:
 ###### • GitHub is managed by Mr. Prajjwal Pal and REDME.md done by Mr. Aifanul Islam and Mr. Piyush Narkhede.
 ###### • The signup and sign in pages are designed and its functionality done by Mr. Jyoti Kamal Singh.
